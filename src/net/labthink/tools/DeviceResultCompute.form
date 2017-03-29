@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup_vac">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x8bbe;&#x5907;&#x6570;&#x636e;&#x8ba1;&#x7b97;&#x5de5;&#x5177;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jSeparator1" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <Component id="jTabbedPane_about" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jTabbedPane_about" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="147" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea_output">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane_about">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel_fallingdart">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x843d;&#x9556;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x843d;&#x9556;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="269" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="99" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea_Input_FD">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="230&#xa;213&#xa;200&#xa;230&#xa;215&#xa;200&#xa;185&#xa;170&#xa;230&#xa;260"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8f93;&#x5165;&#x7684;&#x6570;&#x636e;&#xff0c;&#x5982;&#x679c;&#x6709;&#x91cd;&#x590d;&#x7684;&#xff0c;&#x53ef;&#x4ee5;&#x7528;&#x201c;&#x6570;&#xff0c;&#x4e2a;&#x6570;&#x201d;&#x7684;&#x5f62;&#x5f0f;&#x8868;&#x793a;&#xff0c;&#x4f8b;&#x5982;&#x6709;13&#x4e2a;1&#xff0c;&#x53ef;&#x4ee5;&#x5199;&#x4e3a;&#x201c;13&#xff0c;1&#x201d;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8f93;&#x5165;&#x6240;&#x6709;&#x51b2;&#x7834;&#x8d28;&#x91cf;&#xff1a;"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_ASTM" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox_GB" max="32767" attributes="0"/>
+                                  <Component id="jFormattedTextField_deltaM" alignment="0" min="-2" pref="121" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jButton_Compute_FD" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxA" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxB" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_deltaM" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jCheckBox_ASTM" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jCheckBox_GB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jCheckBoxA" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jCheckBoxB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton_Compute_FD" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="98" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButton_Compute_FD">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_Compute_FDActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCheckBoxB">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="B&#x6cd5;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCheckBoxA">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="A&#x6cd5;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCheckBox_GB">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="GB 9639,ISO 7765"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCheckBox_ASTM">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="ASTM D1709"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_deltaM">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="15"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x25b3;M&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x8f93;&#x5165;&#x65b9;&#x6cd5;&#xff1a;&#x6bcf;&#x884c;&#x4e00;&#x4e2a;&#x6570;&#x5b57;&#xff0c;&#x6216;&#xff1a;&lt;p/&gt;&#x6570;&#x5b57;&#x540e;&#x9762;&#x8ddf;&#x7740;&#x9017;&#x53f7;&#x52a0;&#x6b21;&#x6570;,&#x4f8b;&#x5982;&#xff1a;&lt;p/&gt;110&#xff0c;3&lt;br/&gt;130&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_rgt">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x6b8b;&#x6c27;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x6b8b;&#x6c27;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel_RGT_K" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_K" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel_RGT_p1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_P1" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel_RGT_hzero" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_HZERO" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel_RGT_T0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_T0" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel_RGT_S" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_S" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel_RGT_h0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_H0" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel_RGT_h2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_RGT_H2" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel_RGT_p2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel_RGT_h1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jFormattedTextField_RGT_H1" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_RGT_P2" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="jButton_RGT_compute" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="246" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_p1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_P1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton_RGT_compute" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_p2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_P2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_h1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_H1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_h2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_H2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_h0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_H0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_S" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_S" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_T0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_T0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_hzero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_HZERO" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel_RGT_K" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_RGT_K" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="113" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_p1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="P1(kPa):"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x4e3a;&#x5728;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x5230;H1&#x9ad8;&#x5ea6;&#x65f6;&#xff0c;&#x6d4b;&#x91cf;&#x5230;&#x7684;&#x5b9e;&#x9645;&#x538b;&#x5f3a;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;KPa"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_P1">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x4e3a;&#x5728;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x5230;H1&#x9ad8;&#x5ea6;&#x65f6;&#xff0c;&#x6d4b;&#x91cf;&#x5230;&#x7684;&#x5b9e;&#x9645;&#x538b;&#x5f3a;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;KPa"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_P1FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_P2">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="P2---------&#x4e3a;&#x5728;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x5230;H2&#x9ad8;&#x5ea6;&#x65f6;&#xff0c;&#x6d4b;&#x91cf;&#x5230;&#x7684;&#x5b9e;&#x9645;&#x538b;&#x5f3a;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;KPa"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_P2FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_p2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="P2(kPa):"/>
+                <Property name="toolTipText" type="java.lang.String" value="P2---------&#x4e3a;&#x5728;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x5230;H2&#x9ad8;&#x5ea6;&#x65f6;&#xff0c;&#x6d4b;&#x91cf;&#x5230;&#x7684;&#x5b9e;&#x9645;&#x538b;&#x5f3a;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;KPa"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_H1">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="H1---------&#x5f53;&#x771f;&#x7a7a;&#x538b;&#x529b;&#x62bd;&#x5230;P1&#x538b;&#x5f3a;&#x65f6;&#xff0c;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x7684;&#x9ad8;&#x5ea6;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;mm"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_H1FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_h1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="H1(mm):"/>
+                <Property name="toolTipText" type="java.lang.String" value="H1---------&#x5f53;&#x771f;&#x7a7a;&#x538b;&#x529b;&#x62bd;&#x5230;P1&#x538b;&#x5f3a;&#x65f6;&#xff0c;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x7684;&#x9ad8;&#x5ea6;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;mm"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_H2">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="H2---------&#x5f53;&#x771f;&#x7a7a;&#x538b;&#x529b;&#x62bd;&#x5230;P2&#x538b;&#x5f3a;&#x65f6;&#xff0c;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x7684;&#x9ad8;&#x5ea6;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;mm"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_H2FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_h2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="H2(mm):"/>
+                <Property name="toolTipText" type="java.lang.String" value="H2---------&#x5f53;&#x771f;&#x7a7a;&#x538b;&#x529b;&#x62bd;&#x5230;P2&#x538b;&#x5f3a;&#x65f6;&#xff0c;&#x8ba1;&#x91cf;&#x7ba1;&#x4e0a;&#x5347;&#x7684;&#x9ad8;&#x5ea6;&#x5e73;&#x5747;&#x503c;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;mm"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_h0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="H0(mm):"/>
+                <Property name="toolTipText" type="java.lang.String" value="H0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;P1 &#x3001;P2&#x65f6;&#x7684;&#x72b6;&#x6001;&#xff0c;&#x4e0b;&#x6c89;&#x4e3a;60mm&#xff0c;&#x5176;&#x5b83;&#x72b6;&#x6001;&#x4e3a;&#x8f93;&#x5165;&#x503c;&#x3002;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_H0">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="H0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;P1 &#x3001;P2&#x65f6;&#x7684;&#x72b6;&#x6001;&#xff0c;&#x4e0b;&#x6c89;&#x4e3a;60mm&#xff0c;&#x5176;&#x5b83;&#x72b6;&#x6001;&#x4e3a;&#x8f93;&#x5165;&#x503c;&#x3002;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_H0FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_S">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="S---------&#x4e3a;&#x8ba1;&#x91cf;&#x7ba1;&#x7684;&#x622a;&#x9762;&#x79ef;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;cm2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_SFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_S">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S(cm2):"/>
+                <Property name="toolTipText" type="java.lang.String" value="S---------&#x4e3a;&#x8ba1;&#x91cf;&#x7ba1;&#x7684;&#x622a;&#x9762;&#x79ef;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;cm2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_T0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T0(&#x2103;):"/>
+                <Property name="toolTipText" type="java.lang.String" value="T0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;&#x6d4b;&#x91cf;&#x65f6;&#x7684;&#x6e29;&#x5ea6;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;&#x2103;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_T0">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="T0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;&#x6d4b;&#x91cf;&#x65f6;&#x7684;&#x6e29;&#x5ea6;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;&#x2103;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_T0FocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_RGT_compute">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_RGT_computeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_hzero">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="H_Zero(mm):"/>
+                <Property name="toolTipText" type="java.lang.String" value="H0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;P1 &#x3001;P2&#x65f6;&#x7684;&#x72b6;&#x6001;&#xff0c;&#x4e0b;&#x6c89;&#x4e3a;60mm&#xff0c;&#x5176;&#x5b83;&#x72b6;&#x6001;&#x4e3a;&#x8f93;&#x5165;&#x503c;&#x3002;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_HZERO">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value="H0---------&#x4e3a;&#x8bd5;&#x6837;&#x5728;P1 &#x3001;P2&#x65f6;&#x7684;&#x72b6;&#x6001;&#xff0c;&#x4e0b;&#x6c89;&#x4e3a;60mm&#xff0c;&#x5176;&#x5b83;&#x72b6;&#x6001;&#x4e3a;&#x8f93;&#x5165;&#x503c;&#x3002;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_HZEROFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_RGT_K">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="K:"/>
+                <Property name="toolTipText" type="java.lang.String" value="S---------&#x4e3a;&#x8ba1;&#x91cf;&#x7ba1;&#x7684;&#x622a;&#x9762;&#x79ef;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;cm2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_RGT_K">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.00000" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="0.20948"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_RGT_KFocusGained"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_sly">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x6495;&#x88c2;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x6495;&#x88c2;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton_sly_compute" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel_sly_result" min="-2" pref="262" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel_sly_variable" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel_sly_const" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel_sly_const" max="32767" attributes="0"/>
+                          <Component id="jPanel_sly_variable" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton_sly_compute" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_sly_result" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel_sly_variable">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x53d8;&#x91cf;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_sly_a0" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_sly_a0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_sly_a" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_sly_a" min="-2" pref="126" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="24" pref="10" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel_sly_n" min="-2" pref="119" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_sly_n" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_a" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_a" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_a0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_a0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x6700;&#x5927;&#x89d2;&#x5ea6;&#x3b1;(&#xb0;):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_a">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="80"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_a0">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x4e0a;&#x4f4d;&#x70b9;&#x89d2;&#x5ea6;&#x3b1;0(&#xb0;):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_a0">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="110.039"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_n">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x8bd5;&#x6837;&#x5c42;&#x6570;n(&#x4ef6;):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_n">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format subtype="1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="1"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel_sly_const">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x5e38;&#x91cf;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel_sly_m" max="32767" attributes="0"/>
+                              <Component id="jLabel_sly_l" max="32767" attributes="0"/>
+                              <Component id="jLabel_sly_g" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jFormattedTextField_sly_g" pref="121" max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_l" max="32767" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_P" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_g" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_g" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_l" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_l" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_sly_m" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_sly_P" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="91" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_g">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" value="&#x91cd;&#x529b;&#x52a0;&#x901f;&#x5ea6;g(N/kg):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_l">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" value="&#x4e2d;&#x5fc3;&#x8ddd;L(mm):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_g">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="9.80665"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_l">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="119"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_sly_m">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" value="&#x6446;&#x4f53;&#x8d28;&#x91cf;&#x7cfb;&#x6570;P:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_sly_P">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="1"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton_sly_compute">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_sly_computeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_sly_result">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="  "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_vac">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x538b;&#x5dee;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x538b;&#x5dee;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                          <Component id="jPanel5" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jRadioButton_vac_7210" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton_vac_7200" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jButton_VAC_compute" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jRadioButton_vac_7110" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton_vac_7100" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jPanel_vac_other" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel5" min="-2" pref="135" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton_vac_7210" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton_vac_7200" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton_vac_7110" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton_vac_7100" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="6" max="32767" attributes="0"/>
+                              <Component id="jPanel_vac_other" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton_VAC_compute" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jPanel3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x6e17;&#x900f;&#x7cfb;&#x6570;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel_VAC_d" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_VAC_d" min="-2" pref="156" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_d" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_d" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_d">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="125"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8bd5;&#x6837;&#x539a;&#x5ea6;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_dFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_d">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="d(&#x3bc;m)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4e0b;&#x8154;&#x4f53;&#x79ef;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x5e38;&#x89c4;&#x53c2;&#x6570;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel_VAC_T0" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_VAC_T0" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel_VAC_V" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_S" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_T" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_P0" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_P1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_P2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_deltaT" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_deltaPstart" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_deltaPend" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel_VAC_n" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jFormattedTextField_VAC_V" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_S" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_T" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_P0" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_P1" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_P2" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_deltaT" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_deltaPstart" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_deltaPend" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_VAC_n" alignment="1" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_V" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_V" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_S" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_S" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_T" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_T" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_T0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_T0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_P0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_P0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_P1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_P1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_P2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_P2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_deltaT" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_deltaT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_deltaPstart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_deltaPstart" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_deltaPend" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_deltaPend" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_V">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="8.01"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4e0b;&#x8154;&#x4f53;&#x79ef;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_VFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_V">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="V(ml)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4e0b;&#x8154;&#x4f53;&#x79ef;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_S">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="S(m2)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6d4b;&#x8bd5;&#x9762;&#x79ef;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_S">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.000000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0.003848"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6d4b;&#x8bd5;&#x9762;&#x79ef;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_SFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_T">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="T(&#x2103;)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="273.15"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_T">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="25"/>
+                    <Property name="toolTipText" type="java.lang.String" value="273.15"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_TFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_P0">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="P0(pa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="101300"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_P0">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="101300"/>
+                    <Property name="toolTipText" type="java.lang.String" value="101300"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_P0FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_P1">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="1"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x9ad8;&#x538b;&#x8154;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_P1FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_P1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="P1(0.1MPa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x9ad8;&#x538b;&#x8154;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_P2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00000" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4f4e;&#x538b;&#x8154;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_P2FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_P2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="P2(0.1MPa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4f4e;&#x538b;&#x8154;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_deltaT">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x394;t(s)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x65f6;&#x95f4;&#x5dee;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_deltaT">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="3600"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x65f6;&#x95f4;&#x5dee;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_deltaTFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_deltaPstart">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x394;P_start(Pa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x521d;&#x59cb;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_deltaPstart">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="9"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x521d;&#x59cb;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_deltaPstartFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_deltaPend">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="150"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x540e;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_deltaPendFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_deltaPend">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x394;P_end(Pa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x540e;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_n">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="3"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8bd5;&#x6837;&#x4ef6;&#x6570;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_nFocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_n">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="n(&#x4ef6;)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x4e0b;&#x8154;&#x4f53;&#x79ef;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_T0">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="T0(K)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="273.15"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_T0">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="273.15"/>
+                    <Property name="toolTipText" type="java.lang.String" value="273.15"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_T0FocusGained"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x6269;&#x6563;&#x7cfb;&#x6570;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_VAC_kuosanP1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_VAC_kuosanP1" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_VAC_kuosanP2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_VAC_kuosanP2" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_VAC_kuosanT1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_VAC_kuosanT1" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel_VAC_kuosanT2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_VAC_kuosanT2" min="-2" pref="156" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_kuosanP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_kuosanP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_kuosanP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_kuosanP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_kuosanT1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_kuosanT1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jFormattedTextField_VAC_kuosanT2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_VAC_kuosanT2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_kuosanP1">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="150"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x7ec8;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_kuosanP1FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_kuosanP1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="p1(Pa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x7ec8;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_kuosanP2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="p2(Pa)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8ddd;&#x79bb;&#x6700;&#x540e;&#x4e24;&#x4e2a;&#x6d4b;&#x8bd5;&#x95f4;&#x9694;&#x538b;&#x529b;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_kuosanP2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="100"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8ddd;&#x79bb;&#x6700;&#x540e;&#x4e24;&#x4e2a;&#x6d4b;&#x8bd5;&#x95f4;&#x9694;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_kuosanP2FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_kuosanT1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="t1(s)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x7ec8;&#x65f6;&#x95f4;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_kuosanT1">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="7200"/>
+                    <Property name="toolTipText" type="java.lang.String" value="S---------&#x4e3a;&#x8ba1;&#x91cf;&#x7ba1;&#x7684;&#x622a;&#x9762;&#x79ef;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;cm2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_kuosanT1FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_kuosanT2">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="#0.00" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="toolTipText" type="java.lang.String" value="S---------&#x4e3a;&#x8ba1;&#x91cf;&#x7ba1;&#x7684;&#x622a;&#x9762;&#x79ef;&#xff0c;&#x5355;&#x4f4d;&#x4e3a;cm2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_kuosanT2FocusGained"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_VAC_kuosanT2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="t2(s)&#xff1a;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8ddd;&#x79bb;&#x6700;&#x540e;&#x4e24;&#x4e2a;&#x6d4b;&#x8bd5;&#x95f4;&#x9694;&#x7684;&#x65f6;&#x523b;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton_VAC_compute">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_VAC_computeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton_vac_7210">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup_vac"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="7210"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton_vac_7210ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton_vac_7110">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup_vac"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="7110"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton_vac_7110ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton_vac_7200">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup_vac"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="7200"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton_vac_7200ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton_vac_7100">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup_vac"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="7100"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton_vac_7100ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel_vac_other">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x5176;&#x4ed6;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel_vac_FilmCalibration" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jFormattedTextField_VAC_filmcali" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_vac_FilmCalibration" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextField_VAC_filmcali" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_vac_FilmCalibration">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x819c;&#x6807;&#x5b9a;&#x7cfb;&#x6570;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_VAC_filmcali">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                      <Format format="" subtype="-1" type="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="1"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x6700;&#x7ec8;&#x538b;&#x529b;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField_VAC_filmcaliFocusGained"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_Math">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="&#x8f93;&#x5165;&#x7684;&#x6570;&#x636e;&#xff0c;&#x5982;&#x679c;&#x6709;&#x91cd;&#x590d;&#x7684;&#xff0c;&#x53ef;&#x4ee5;&#x7528;&#x201c;&#x6570;&#xff0c;&#x4e2a;&#x6570;&#x201d;&#x7684;&#x5f62;&#x5f0f;&#x8868;&#x793a;&#xff0c;&#x4f8b;&#x5982;&#x6709;13&#x4e2a;1&#xff0c;&#x53ef;&#x4ee5;&#x5199;&#x4e3a;&#x201c;13&#xff0c;1&#x201d;"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x6570;&#x636e;&#x65b9;&#x5dee;&#x8ba1;&#x7b97;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x6570;&#x636e;&#x65b9;&#x5dee;&#x8ba1;&#x7b97;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel_math" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane_math" min="-2" pref="269" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButton_math" min="-2" pref="87" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel_math_precision" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField_math_precision" min="-2" pref="29" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="178" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel_math" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane_math" pref="321" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel_math_precision" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField_math_precision" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton_math" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane_math">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea_Input_math">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="230&#xa;213&#xa;200&#xa;"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&#x8f93;&#x5165;&#x7684;&#x6570;&#x636e;&#xff0c;&#x5982;&#x679c;&#x6709;&#x91cd;&#x590d;&#x7684;&#xff0c;&#x53ef;&#x4ee5;&#x7528;&#x201c;&#x6570;&#xff0c;&#x4e2a;&#x6570;&#x201d;&#x7684;&#x5f62;&#x5f0f;&#x8868;&#x793a;&#xff0c;&#x4f8b;&#x5982;&#x6709;13&#x4e2a;1&#xff0c;&#x53ef;&#x4ee5;&#x5199;&#x4e3a;&#x201c;13&#xff0c;1&#x201d;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel_math">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8f93;&#x5165;&#x6570;&#x636e;&#xff1a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_math">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_mathActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel_math_precision">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x5c0f;&#x6570;&#x70b9;&#x4f4d;&#x6570;&#xff1a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField_math_precision">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_about">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="About">
+                <Property name="tabTitle" type="java.lang.String" value="About"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="&#x4fee;&#x6539;&#x8bb0;&#x5f55;"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" pref="526" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane3" pref="308" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <Properties>
+                    <Property name="autoscrolls" type="boolean" value="true"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea1">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="2013.11.18 &#x66f4;&#x65b0;&#x6495;&#x88c2;&#x8ba1;&#x7b97;&#x516c;&#x5f0f;&#xa;2013.11.18 &#x66f4;&#x65b0;&#x6b8b;&#x6c27;&#x5de5;&#x65f6;&#xff0c;&#x589e;&#x52a0;&#x4e86;&#x53bb;&#x9664;&#x96f6;&#x70b9;&#x9ad8;&#x5ea6;&#xa;2013.11.13 &#x5b8c;&#x6210;&#x6495;&#x88c2;&#x521d;&#x7a3f;&#xa;2013.11.08 &#x589e;&#x52a0;&#x6b8b;&#x6c27;&#x7684;&#x6587;&#x672c;&#x6846;&#x9009;&#x4e2d;&#x5219;&#x5168;&#x9009;&#x529f;&#x80fd;&#xa;2013.11.07 &#x843d;&#x9556;&#x6309;&#x7167;&#x9700;&#x6c42;&#x8fdb;&#x884c;&#x4fee;&#x6539;&#xff0c;&#x9700;&#x6c42;&#x4e3a;&#x53ef;&#x8f93;&#x5165;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x7684;&#x4e2a;&#x6570;&#xa;2013.11.07 &#x5b8c;&#x6210;&#x6b8b;&#x6c27;&#x521d;&#x7a3f;&#xa;2013.11.06 &#x5b8c;&#x6210;&#x843d;&#x9556;&#x8ba1;&#x7b97;&#xa;2014.02.24 &#x5b8c;&#x6210;&#x538b;&#x5dee;&#x6cd5;&#x8ba1;&#x7b97;&#xa;2014.02.26 &#x5b8c;&#x6210;&#x65b9;&#x5dee;&#x3001;&#x6807;&#x51c6;&#x5dee;&#x8ba1;&#x7b97;&#xa;2014.02.27 &#x4fee;&#x6b63;&#x65b9;&#x5dee;&#x8ba1;&#x7b97;&#x65f6;&#x5bf9;&#x5c0f;&#x6570;&#x5904;&#x7406;&#x9519;&#x8bef;&#x7684;&#x60c5;&#x51b5;&#xa;2014.02.28 &#x6dfb;&#x52a0;&#x6b8b;&#x6c27;K&#x503c;&#x9ed8;&#x8ba4;&#x503c;&#x3002;&#xa;2014.03.19 &#x6dfb;&#x52a0;&#x538b;&#x5dee;&#x6cd5;4&#x6b3e;&#x8bbe;&#x5907;&#x7684;&#x9ed8;&#x8ba4;&#x503c;&#xa;"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,624 @@
+Temperature,Celsius(\u00B0C),Celsius(\u00B0C),true,1.0,0.0,
+Temperature,Celsius(\u00B0C),K,false,1.0,-273.15,
+#Temperature,Celsius(\u00B0C),Fahrenheit(F),false,0.555555555555555,-17.77777778,
+#Temperature,K,\u00B0C,false,1.0,273.15,Celsius
+#Temperature,K,\u00B0F,false,0.5555555555555556,255.3722222222222,Fahrenheit
+#Temperature,K,\u00B0Re,false,1.25,273.15,R\u00E9aumure
+#Temperature,K,\u00B0Rr,false,0.5555555555555556,0.0,Rankine
+#Temperature,K,K,true,1.0,0.0,Kelvin
+Pressure,pascal,atm,false,101325.0,0.0,atmosphere
+Pressure,pascal,atmosphere,false,101325.0,0.0,
+Pressure,pascal,bar,false,100000.0,0.0,
+Pressure,pascal,bar,false,100000.0,0.0,bar
+Pressure,pascal,centimeters of mercury,false,1333.22,0.0,
+Pressure,pascal,dyn/cm\u00B2,false,0.1,0.0,dyne/sq.centimeter
+Pressure,pascal,dyne/centimeter\u00B2,false,0.1,0.0,
+Pressure,pascal,ft of water,false,2989.06692,0.0,feet of water
+Pressure,pascal,gf/cm\u00B2,false,9.80665E7,0.0,gram-forces/sq.centimeter
+Pressure,pascal,gf/m\u00B2,false,9806.65,0.0,gram-forces/sq.meter
+Pressure,pascal,inches of mercury,false,3386.38,0.0,
+Pressure,pascal,inches of mercury,false,3386.388,0.0,inches of mercury
+Pressure,pascal,inches of water,false,249.08891,0.0,inches of water
+Pressure,pascal,kilogram/centimeter\u00B2,false,98066.5,0.0,
+Pressure,pascal,kilogram/meter\u00B2,false,9.80665,0.0,
+Pressure,pascal,kilopascal,false,1000.0,0.0,
+Pressure,pascal,kips/inch\u00B2,false,6894760.0,0.0,kips/sq.inch
+Pressure,pascal,ksi,false,6894757.29318,0.0,
+Pressure,pascal,lbf/ft\u00B2,false,47.88,0.0,pounds-force/sq.foot
+Pressure,pascal,lbf/inch\u00B2,false,6894.757,0.0,pounds-force/sq.inch
+Pressure,pascal,m mercury,false,133.322,0.0,meters mercury (0\u00B0C)
+Pressure,pascal,m water,false,0.980665,0.0,meters water
+Pressure,pascal,Mpa,false,1000000.0,0.0,megapascal
+Pressure,pascal,0.1Mpa,false,100000.0,0.0,
+Pressure,pascal,microbar,false,0.1,0.0,
+Pressure,pascal,millibar,false,100.0,0.0,
+Pressure,pascal,millimeters of mercury,false,133.322,0.0,
+Pressure,pascal,N/cm\u00B2,false,10000.0,0.0,newtons/sq.centimeter
+Pressure,pascal,N/m\u00B2,false,1.0,0.0,
+Pressure,pascal,N/m\u00B2,true,1.0,0.0,newtons/sq.meter
+Pressure,pascal,N/mm\u00B2,false,1000000.0,0.0,newtons/sq.millimeter
+Pressure,pascal,Pa,false,1.0,0.0,pascal
+Pressure,pascal,pascal,true,1.0,0.0,
+Pressure,pascal,pound/foot\u00B2,false,47.8802589804,0.0,
+Pressure,pascal,pound/inch\u00B2,false,6894.75729318,0.0,
+Pressure,pascal,poundal/foot\u00B2,false,1.48816394357,0.0,
+Pressure,pascal,poundals/ft\u00B2,false,1.44816,0.0,poundals/sq.foot
+Pressure,pascal,PSI,false,6894.75729318,0.0,
+Pressure,pascal,ton/foot\u00B2,false,95760.5179607,0.0,
+Pressure,pascal,ton/inch\u00B2,false,1.37895145863E7,0.0,
+Pressure,pascal,tonnes-force/cm\u00B2,false,9.80665E7,0.0,tonnes-force/sq.cm
+Pressure,pascal,tons-force/ft\u00B2,false,107251.0,0.0,tons (UK)-force/sq.foot
+Pressure,pascal,tons-force/ft\u00B2,false,95760.0,0.0,tons (US)-force/sq.foot
+Pressure,pascal,tons-force/inch\u00B2,false,1.37895E7,0.0,tons (US)-force/sq.inch
+Pressure,pascal,tons-force/inch\u00B2,false,1544256.0,0.0,tons (UK)-force/sq.inch
+Pressure,pascal,torr,false,133.322,0.0,torr (0\u00B0C)
+Pressure,pascal,torr,false,133.322368421,0.0,
+Time,second(s),century,false,3.1536E9,0.0,
+Time,second(s),century,false,3.1536E9,0.0,century
+Time,second(s),day,false,86400.0,0.0,
+Time,second(s),day,false,86400.0,0.0,days
+Time,second(s),decade,false,3.1536E8,0.0,
+Time,second(s),fortnight,false,1209600.0,0.0,
+Time,second(s),hour,false,3600.0,0.0,
+Time,second(s),hour,false,3600.0,0.0,hours
+Time,second(s),julian year,false,3.15576E7,0.0,
+Time,second(s),leap-year,false,3.16224E7,0.0,
+Time,second(s),millennium,false,3.1536E10,0.0,
+Time,second(s),millisecond,false,0.0010,0.0,
+Time,second(s),min,false,60.0,0.0,minutes
+Time,second(s),minute('),false,60.0,0.0,
+Time,second(s),month (30 day),false,2592000.0,0.0,
+Time,second(s),month,false,2592000.0,0.0,months
+Time,second(s),month,false,2628000.0,0.0,
+Time,second(s),nanosecond,false,1.0E-9,0.0,
+Time,second(s),s,true,1.0,0.0,seconds
+Time,second(s),score,false,6.3072E8,0.0,
+Time,second(s),second('''),true,1.0,0.0,
+Time,second(s),week,false,604800.0,0.0,
+Time,second(s),year,false,3.1536E7,0.0,
+Time,second(s),year,false,3.1536E7,0.0,years
+Distance,meter(m),centimeter(cm),false,0.01,0.0,
+Distance,meter(m),decimeter,false,0.1,0.0,
+Distance,meter(m),dekameter(dam),false,10.0,0.0,
+Distance,meter(m),earth diameter,false,1.274263E7,0.0,earth diameter
+Distance,meter(m),ell,false,0.875,0.0,ell (UK)
+Distance,meter(m),ems,false,0.0042333,0.0,ems (pica)
+Distance,meter(m),esba,false,0.01875,0.0,esba (Bible)
+Distance,meter(m),fathoms,false,1.8288,0.0,fathoms
+Distance,meter(m),foot(ft),false,0.3048,0.0,
+Distance,meter(m),furlong,false,201.168,0.0,
+Distance,meter(m),hectometer(hm),false,100.0,0.0,
+Distance,meter(m),inch(in),false,0.0254,0.0,
+Distance,meter(m),kilometer(km),false,1000.0,0.0,
+Distance,meter(m),league,false,4828.032,0.0,
+Distance,meter(m),light second,false,2.99792458E8,0.0,light second
+Distance,meter(m),lightyear(ly),false,9.4607304725808E15,0.0,
+Distance,meter(m),meter(m),true,1.0,0.0,
+Distance,meter(m),micrometer(\u00B5m),false,1.0E-6,0.0,
+Distance,meter(m),mil(mil),false,2.54E-5,0.0,
+Distance,meter(m),mile(mi),false,1609.344,0.0,
+Distance,meter(m),millimeter(mm),false,0.0010,0.0,
+Distance,meter(m),nanometer(nm),false,1.0E-9,0.0,
+Distance,meter(m),nautical mile(M),false,1852.0,0.0,
+Distance,meter(m),new ch'in,false,0.35814,0.0,new ch'in (China)
+Distance,meter(m),new li \#1,false,0.0010,0.0,new li \#1 (China)
+Distance,meter(m),new li \#2,false,1000.0,0.0,new li \#2 (China)
+Distance,meter(m),old li,false,644.6401,0.0,old li (China)
+Distance,meter(m),parsec(pc),false,3.085678186E16,0.0,
+Distance,meter(m),perche,false,5.0292,0.0,perche
+Distance,meter(m),pole,false,5.0292,0.0,pole
+Distance,meter(m),rod,false,5.0292,0.0,rod
+Distance,meter(m),solar diameter,false,1.3919E9,0.0,solar diameter
+Distance,meter(m),span,false,0.2286,0.0,span
+Distance,meter(m),yard(yd),false,0.9144,0.0,
+Area,m\u00B2,acre,false,4046.8564224,0.0,acres
+Area,m\u00B2,acre,false,5142.20257,0.0,scottish acre
+Area,m\u00B2,acre,false,6555.26312,0.0,irish acre
+Area,m\u00B2,acre,false,8561.97632,0.0,chesire acre
+Area,m\u00B2,ares,false,100.0,0.0,ares
+Area,m\u00B2,arpent,false,3433.35804,0.0,arpent
+Area,m\u00B2,barony,false,1.618748647094E7,0.0,barony
+Area,m\u00B2,circular inch,false,5.06707479E-4,0.0,circular inches
+Area,m\u00B2,fall,false,31.79618,0.0,fall
+Area,m\u00B2,flag,false,2.32258,0.0,flag
+Area,m\u00B2,ft\u00B2,false,0.09290304,0.0,square feet (UK & US)
+Area,m\u00B2,ha,false,10000.0,0.0,hectares
+Area,m\u00B2,hide,false,40468.71618,0.0,hides
+Area,m\u00B2,inch\u00B2,false,6.4516E-4,0.0,square inches
+Area,m\u00B2,jock,false,5746.5577,0.0,jock
+Area,m\u00B2,m\u00B2,false,1.0,0.0,square meters
+Area,m\u00B2,m\u00B2,true,1.0,0.0,square meters
+Area,m\u00B2,mi\u00B2,false,2589988.110336,0.0,square miles
+Area,m\u00B2,pace,false,2.32258,0.0,pace
+Area,m\u00B2,quarter section,false,647499.45884,0.0,quarter section
+Area,m\u00B2,rood,false,1011.7141056,0.0,roods
+Area,m\u00B2,scottish ell\u00B2,false,0.88323,0.0,square scottish ell
+Area,m\u00B2,sft\u00B2,false,0.092903411613,0.0,square feet (US survey)
+Area,m\u00B2,square,false,9.290304,0.0,squares (of timber)
+Area,m\u00B2,township,false,9.3239571972E7,0.0,townships
+Area,m\u00B2,yd\u00B2,false,0.83612736,0.0,square yards
+Area,m\u00B2,yoke,false,5746.5577,0.0,yoke
+Volume or Capacity,m\u00B3,barrels,false,0.158987294928,0.0,barrels (oil)
+Volume or Capacity,m\u00B3,bushel,false,0.03523907016688,0.0,bushels (US)
+Volume or Capacity,m\u00B3,bushel,false,0.03636872,0.0,bushels (UK)
+Volume or Capacity,m\u00B3,cofee spoon,false,1.23223E-6,0.0,cofee spoon
+Volume or Capacity,m\u00B3,cup,false,2.3658825E-4,0.0,cup (US)
+Volume or Capacity,m\u00B3,dash,false,3.0806E-7,0.0,dash
+Volume or Capacity,m\u00B3,drop,false,6.485E-8,0.0,drop
+Volume or Capacity,m\u00B3,fluid dram,false,3.69669E-6,0.0,fluid dram
+Volume or Capacity,m\u00B3,fluid ounce,false,2.841308E-5,0.0,fluid ounce (UK)
+Volume or Capacity,m\u00B3,fluid ounce,false,2.957353E-5,0.0,fluid ounce (US)
+Volume or Capacity,m\u00B3,fluid oz,false,2.84130625E-5,0.0,fluid ounces (UK)
+Volume or Capacity,m\u00B3,fluid oz,false,2.95735295625E-5,0.0,fluid ounces (US)
+Volume or Capacity,m\u00B3,ft\u00B3,false,0.028316846592,0.0,cubic feet
+Volume or Capacity,m\u00B3,gallon,false,0.003785411784,0.0,gallons, liquid (US)
+Volume or Capacity,m\u00B3,gallon,false,0.00440488377086,0.0,gallons, dry (US)
+Volume or Capacity,m\u00B3,gallon,false,0.00454609,0.0,gallon (UK)
+Volume or Capacity,m\u00B3,gill,false,1.182941E-4,0.0,gill (US)
+Volume or Capacity,m\u00B3,gill,false,1.420654E-4,0.0,gill (UK)
+Volume or Capacity,m\u00B3,inch\u00B3,false,1.6387064E-5,0.0,cubic inch
+Volume or Capacity,m\u00B3,l,false,0.0010,0.0,liter
+Volume or Capacity,m\u00B3,l,false,0.001000028,0.0,liter (1901-1964)
+Volume or Capacity,m\u00B3,m\u00B3,false,1.0,0.0,cubic meter
+Volume or Capacity,m\u00B3,m\u00B3,true,1.0,0.0,cubic meter
+Volume or Capacity,m\u00B3,peck,false,0.008809768,0.0,peck
+Volume or Capacity,m\u00B3,pinch,false,6.1612E-7,0.0,pinch
+Volume or Capacity,m\u00B3,pint,false,4.73176473E-4,0.0,pints, liquid (US)
+Volume or Capacity,m\u00B3,pint,false,5.506104713575E-4,0.0,pint, dry (US)
+Volume or Capacity,m\u00B3,pint,false,5.6826125E-4,0.0,pint (UK)
+Volume or Capacity,m\u00B3,quart,false,0.001101220942715,0.0,quart, dry (US)
+Volume or Capacity,m\u00B3,quart,false,0.001101221,0.0,quart (US dry)
+Volume or Capacity,m\u00B3,quart,false,0.0011365225,0.0,quart (UK)
+Volume or Capacity,m\u00B3,quart,false,9.46352946E-4,0.0,quarts, liquid (US)
+Volume or Capacity,m\u00B3,tablespoon,false,1.478677E-5,0.0,tablespoon (US)
+Volume or Capacity,m\u00B3,tablespoon,false,1.848294E-5,0.0,tablespoon (UK)
+Volume or Capacity,m\u00B3,teaspoon,false,4.62073E-6,0.0,teaspoon (UK)
+Volume or Capacity,m\u00B3,teaspoon,false,4.92892E-6,0.0,teaspoon (US)
+Volume or Capacity,m\u00B3,yd\u00B3,false,0.764554857984,0.0,cubic yard
+Volume,liter,cubic centimeter(CC),false,0.0010,0.0,
+Volume,liter,cubic foot,false,28.31684659,0.0,
+Volume,liter,cubic inch(cui),false,0.016387064,0.0,
+Volume,liter,cubic meter,false,1000.0,0.0,
+Volume,liter,cubic yard,false,764.554858,0.0,
+Volume,liter,cup,false,0.2365882365,0.0,
+Volume,liter,dram,false,0.0036967162,0.0,
+Volume,liter,drop,false,6.48524E-5,0.0,
+Volume,liter,gallon(gal),false,3.785411784,0.0,
+Volume,liter,gallon-UK,false,4.546092,0.0,
+Volume,liter,liter,true,1.0,0.0,
+Volume,liter,milliliter(ml),false,0.0010,0.0,
+Volume,liter,minim-US,false,6.161152E-5,0.0,
+Volume,liter,ounce(oz),false,0.02957352956,0.0,
+Volume,liter,ounce-UK,false,0.028413075,0.0,
+Volume,liter,pint(pt),false,0.473176473,0.0,
+Volume,liter,pint-UK,false,0.568261,0.0,
+Volume,liter,quart(qt),false,0.946352946,0.0,
+Volume,liter,tablespoon(tbs),false,0.01478676478,0.0,
+Volume,liter,teaspoon,false,0.004928921594,0.0,
+#不太常用的
+Acceleration,free fall(g),centimeter/sec\u00B2(cm/s\u00B2),false,0.0010197,0.0,
+Acceleration,free fall(g),foot/sec\u00B2(ft/s\u00B2),false,0.0310808,0.0,
+Acceleration,free fall(g),free fall(g),true,1.0,0.0,
+Acceleration,free fall(g),meter/sec\u00B2(m/s\u00B2),false,0.1019716,0.0,
+Acceleration,free fall(g),mile/hour second(mi/(hs)),false,0.0455853,0.0,
+Acceleration,free fall(g),mile/sec\u00B2(mi/s\u00B2),false,164.10741690588,0.0,
+Acceleration,free fall(g),millimeter/sec\u00B2(mm/s\u00B2),false,1.019E-4,0.0,
+Amt of Substance,mole(mol),kilomole(kmole),false,1000.0,0.0,
+Amt of Substance,mole(mol),micromole(\u00B5mol),false,1.0E-6,0.0,
+Amt of Substance,mole(mol),millimole(mmol),false,0.0010,0.0,
+Amt of Substance,mole(mol),mole(mol),true,1.0,0.0,
+Angle,second('''),degree,false,3600.0,0.0,
+Angle,second('''),grad(g),false,3240.0,0.0,
+Angle,second('''),microradian(\u00B5rad),false,0.2062648062471,0.0,
+Angle,second('''),milliradian(mrad),false,206.2648062471,0.0,
+Angle,second('''),minute('),false,60.0,0.0,
+Angle,second('''),radian(rad),false,206264.8062471,0.0,
+Angle,second('''),revolution(r),false,1296000.0,0.0,
+Angle,second('''),right angle,false,324000.0,0.0,
+Angle,second('''),second('''),true,1.0,0.0,
+Angle1,grad(g),degree,false,1.1111111111111112,0.0,
+Angle1,grad(g),grad(g),true,1.0,0.0,
+Angle1,grad(g),microradian(\u00B5rad),false,6.3661977236758E-5,0.0,
+Angle1,grad(g),milliradian(mrad),false,0.063661977236758,0.0,
+Angle1,grad(g),minute('),false,0.018518518518518517,0.0,
+Angle1,grad(g),radian(rad),false,63.661977236758,0.0,
+Angle1,grad(g),revolution(r),false,400.0,0.0,
+Angle1,grad(g),right angle,false,100.0,0.0,
+Angle1,grad(g),second('''),false,3.0864096365215E-4,0.0,
+Angles,rad,",false,4.84813681109536E-6,0.0,seconds
+Angles,rad,',false,2.908882086657216E-4,0.0,minutes
+Angles,rad,\u00B0,false,0.017453292519943295,0.0,degrees
+Angles,rad,1/10 circle,false,0.6283185307179586,0.0,1/10 circle
+Angles,rad,1/16 circle,false,0.39269908169872414,0.0,1/16 circle
+Angles,rad,1/2 circle,false,3.141592653589793,0.0,1/2 circle
+Angles,rad,1/3 circle,false,2.0943951023931953,0.0,1/3 circle
+Angles,rad,1/4 circle,false,1.5707963267948966,0.0,1/4 circle
+Angles,rad,1/5 circle,false,1.2566370614359172,0.0,1/5 circle
+Angles,rad,1/6 circle,false,1.0471975511965976,0.0,1/6 circle
+Angles,rad,1/7 circle,false,0.8975979010256552,0.0,1/7 circle
+Angles,rad,1/8 circle,false,0.7853981633974483,0.0,1/8 circle
+Angles,rad,1/9 circle,false,0.6981317007977318,0.0,1/9 circle
+Angles,rad,circle,false,6.283185307179586,0.0,full circle
+Angles,rad,grad,false,0.0157079,0.0,grad
+Angles,rad,mils,false,0.0010471975511965976,0.0,mils (EU)
+Angles,rad,mils,false,9.817477042468104E-4,0.0,mils (US)
+Angles,rad,points,false,0.19635,0.0,points
+Angles,rad,rad,true,1.0,0.0,radiants
+
+Concentration,mole/liter(mol/L),kilomole/meter\u00B3(kmol/m\u00B3),false,1.0,0.0,
+Concentration,mole/liter(mol/L),micromole/centimeter\u00B3(\u00B5mol/cm\u00B3),false,0.0010,0.0,
+Concentration,mole/liter(mol/L),micromole/decimeter\u00B3(\u00B5mol/dm\u00B3),false,1.0E-6,0.0,
+Concentration,mole/liter(mol/L),micromole/liter(\u00B5mol/L),false,1.0E-6,0.0,
+Concentration,mole/liter(mol/L),millimole/centimeter\u00B3(mmol/cm\u00B3),false,1.0,0.0,
+Concentration,mole/liter(mol/L),millimole/decimeter\u00B3(mmol/dm\u00B3),false,0.0010,0.0,
+Concentration,mole/liter(mol/L),millimole/liter(mmol/L),false,0.0010,0.0,
+Concentration,mole/liter(mol/L),millimole/meter\u00B3(mmol/m\u00B3),false,1.0E-6,0.0,
+Concentration,mole/liter(mol/L),millimole/milliliter(mmol/mL),false,1.0,0.0,
+Concentration,mole/liter(mol/L),mole/decimeter\u00B3(mol/dm\u00B3),false,1.0,0.0,
+Concentration,mole/liter(mol/L),mole/liter(mol/L),true,1.0,0.0,
+Concentration,mole/liter(mol/L),mole/meter\u00B3(mol/m\u00B3),false,0.0010,0.0,
+Concentration,mole/liter(mol/L),one elementarty entity/meter\u00B3,false,1.660540104E-27,0.0,
+Density,g/ml,g/cl,false,0.1,0.0,grams/centiliter
+Density,g/ml,g/cm\u00B3,false,1.0,0.0,grams/cubic centimeters
+Density,g/ml,g/dal,false,1.0E-4,0.0,grams/dekaliters
+Density,g/ml,g/dam\u00B3,false,1.0E-9,0.0,grams/cubic dekameters
+Density,g/ml,g/dl,false,0.01,0.0,grams/deciliter
+Density,g/ml,g/dm\u00B3,false,0.0010,0.0,grams/cubic decimeters
+Density,g/ml,g/hl,false,1.0E-5,0.0,grams/hectoliter
+Density,g/ml,g/hm\u00B3,false,1.0E-12,0.0,grams/cubic hectometers
+Density,g/ml,g/kl,false,1.0E-6,0.0,grams/kiloliter
+Density,g/ml,g/km\u00B3,false,1.0E-15,0.0,grams/cubic kilometers
+Density,g/ml,g/l,false,0.0010,0.0,grams/liter
+Density,g/ml,g/m\u00B3,false,1.0E-6,0.0,grams/cubic meters
+Density,g/ml,g/ml,true,1.0,0.0,grams/milliliters
+Density,g/ml,g/mm\u00B3,false,1000.0,0.0,grams/cubic millimeters
+Density,g/ml,gr/gal,false,1.4253948343691203E-5,0.0,grains/gallon (UK)
+Density,g/ml,gr/gal,false,1.7118011571775823E-5,0.0,grains/gallon (US)
+Density,g/ml,lb/ft\u00B3,false,0.016018463,0.0,pounds/cubic foot
+Density,g/ml,lb/gal,false,0.099776373,0.0,pounds/gallon (UK)
+Density,g/ml,lb/gal,false,0.119826427,0.0,pounds/gallon (US)
+Density,g/ml,lb/in\u00B3,false,27.679904,0.0,pounds/cubic inch
+Density,g/ml,oz/gal,false,0.006236023,0.0,ounces/gallon (UK)
+Density,g/ml,oz/gal,false,0.007489152,0.0,ounces/gallon (US)
+Density,g/ml,oz/in\u00B3,false,1.729994044,0.0,ounces/cubic inch
+Density,g/ml,slug/ft\u00B3,false,0.51531788206,0.0,slugs/cubic foot
+Density,g/ml,ton/m\u00B3,false,1.0,0.0,tonnes/cubic meter
+Density,g/ml,tons/yard\u00B3,false,1.186552843,0.0,tons (US)/cubic yard
+Density,g/ml,tons/yard\u00B3,false,1.328939184,0.0,tons (UK)/cubic yard
+Dielectric Movement,Coulomb/m\u00B2,abC/cm\u00B2,false,100000.0,0.0,abC/square centimeter
+Dielectric Movement,Coulomb/m\u00B2,Coulomb/m\u00B2,true,1.0,0.0,Coulomb/square meter
+Dielectric Movement,Coulomb/m\u00B2,statC/cm\u00B2,false,3.333333333333333E-7,0.0,statC/square centimeter
+
+Electric Capacitance,F,abF,false,1.0E9,0.0,abFarad
+Electric Capacitance,F,F,true,1.0,0.0,Farad
+Electric Capacitance,F,statF,false,1.111111111111111E-12,0.0,statFarad
+Electric Charge, Quantity of Electricity,C,abC,false,10.0,0.0,abCoulomb
+Electric Charge, Quantity of Electricity,C,C,true,1.0,0.0,Coulomb
+Electric Charge, Quantity of Electricity,C,statC,false,3.3333333333333337E-10,0.0,statCoulomb
+Electric Conductance,S/m,abS/cm,false,1.0E11,0.0,abS/centimeter
+Electric Conductance,S/m,S/m,true,1.0,0.0,siemens/meter
+Electric Conductance,S/m,statS/cm,false,1.1111111111111112E-10,0.0,statS/centimeter
+Electric Current,A,A,true,1.0,0.0,Ampere
+Electric Current,A,abA,false,10.0,0.0,abAmpere
+Electric Current,A,statA,false,3.3333333333333337E-10,0.0,statAmpere
+Electric permettivity (dielectric constant),F/m,abF/cm,false,1.0E11,0.0,abFarad/centimeter
+Electric permettivity (dielectric constant),F/m,F/m,true,1.0,0.0,Farad/meter
+Electric permettivity (dielectric constant),F/m,statF/cm,false,1.1111111111111112E-10,0.0,statFarad/centimeter
+Electric Potential Difference,V,abV,false,1.0E-8,0.0,abVolt
+Electric Potential Difference,V,statV,false,300.0,0.0,statVolt
+Electric Potential Difference,V,V,true,1.0,0.0,Volt
+Electric Resistance,Ohm,abOhm,false,1.0E-9,0.0,abOhm
+Electric Resistance,Ohm,Ohm,true,1.0,0.0,Ohm
+Electric Resistance,Ohm,statOhm,false,9.0E11,0.0,statOhm
+Energy,J,attojoule,false,1.0E-18,0.0,
+Energy,J,british thermal unit(btu),false,1055.055853,0.0,
+Energy,J,Btu (mean),false,1055.87,0.0,Btu (mean)
+Energy,J,Btu,false,1054.35,0.0,Btu (th)
+Energy,J,Btu,false,1055.056,0.0,Btu (IT)
+Energy,J,cal,false,4.1819,0.0,calories (20C)
+Energy,J,cal,false,4.184,0.0,calories (th)
+Energy,J,cal,false,4.1858,0.0,calories (15C)
+Energy,J,cal,false,4.1868,0.0,calories (IT)
+Energy,J,cal,false,4.19002,0.0,calories (mean)
+Energy,J,cal,false,4186.0,0.0,calories (food)
+Energy,J,calorie,false,4.1868,0.0,
+Energy,J,chu,false,1900.4,0.0,centigrade heat units
+Energy,J,dyne-centimeter,false,1.0E-7,0.0,
+Energy,J,electron volt,false,1.60219E-19,0.0,
+Energy,J,erg,false,1.0E-7,0.0,
+Energy,J,erg,false,1.0E-7,0.0,ergs
+Energy,J,eV,false,1.6025641E-19,0.0,elettronVolt
+Energy,J,ft lbf,false,1.355817,0.0,foot pounds-force
+Energy,J,ft poundals,false,0.04214,0.0,foot poundals
+Energy,J,gf m,false,9806.65,0.0,gram-force meters
+Energy,J,gigajoule,false,1.0E9,0.0,
+Energy,J,gigawatt-hour,false,3.6E12,0.0,
+Energy,J,gram force-centimeter,false,9.80665E-5,0.0,
+Energy,J,horsepower hours,false,2684520.0,0.0,horsepower hours
+Energy,J,horsepower-hour,false,2684519.538,0.0,
+Energy,J,J,true,1.0,0.0,joules
+Energy,J,joule,false,1.0,0.0,
+Energy,J,kilocalorie,false,4186.8,0.0,
+Energy,J,kiloelectron volt,false,1.60219E-16,0.0,
+Energy,J,kilojoule,false,1000.0,0.0,
+Energy,J,kilowatt-hour(kwh),false,3600000.0,0.0,
+Energy,J,megaelectron volt,false,1.60219E-13,0.0,
+Energy,J,megajoule,false,1000000.0,0.0,
+Energy,J,megawatt-hour,false,3.6E9,0.0,
+Energy,J,microjoule,false,1.0E-6,0.0,
+Energy,J,millijoule,false,0.0010,0.0,
+Energy,J,nanojoule,false,1.0E-9,0.0,
+Energy,J,newton-meter,false,1.0,0.0,
+Energy,J,Nm,false,1.0,0.0,newton meters
+Energy,J,ounce force-inch,false,0.007061551814,0.0,
+Energy,J,pound force-foot,false,1.355817948,0.0,
+Energy,J,pound force-inch,false,0.112984829,0.0,
+Energy,J,poundal-foot,false,0.04214011009,0.0,
+Energy,J,therm,false,1.05506E8,0.0,
+Energy,J,therm,false,1.055E8,0.0,therms
+Energy,J,watt-hour,false,3600.0,0.0,
+Energy,J,watt-second,false,1.0,0.0,
+Energy,J,Wh,false,3600.0,0.0,watt hours
+Energy,J,Ws,false,1.0,0.0,watt seconds
+Flow,milliliter/second,centimeter\u00B3/hour,false,2.777777777777778E-4,0.0,
+Flow,milliliter/second,centimeter\u00B3/minute,false,0.016666666666666666,0.0,
+Flow,milliliter/second,centimeter\u00B3/second,false,1.0,0.0,
+Flow,milliliter/second,foot\u00B3/hour,false,7.86579072,0.0,
+Flow,milliliter/second,foot\u00B3/minute,false,471.9474432,0.0,
+Flow,milliliter/second,foot\u00B3/second,false,28316.84659,0.0,
+Flow,milliliter/second,gallon/day,false,0.04381263639,0.0,
+Flow,milliliter/second,gallon/hour,false,1.051503273,0.0,
+Flow,milliliter/second,gallon/minute,false,63.0901964,0.0,
+Flow,milliliter/second,gallon/second,false,3785.411784,0.0,
+Flow,milliliter/second,gallon-UK/day,false,0.05261680556,0.0,
+Flow,milliliter/second,gallon-UK/hour,false,1.262803333,0.0,
+Flow,milliliter/second,gallon-UK/minute,false,75.7682,0.0,
+Flow,milliliter/second,gallon-UK/second,false,4546.092,0.0,
+Flow,milliliter/second,liter/day,false,0.01157407407,0.0,
+Flow,milliliter/second,liter/hour,false,0.2777777777777778,0.0,
+Flow,milliliter/second,liter/minute,false,16.666666666666668,0.0,
+Flow,milliliter/second,liter/second,false,1000.0,0.0,
+Flow,milliliter/second,meter\u00B3/day,false,11.57407407,0.0,
+Flow,milliliter/second,meter\u00B3/hour,false,277.77777777777777,0.0,
+Flow,milliliter/second,meter\u00B3/minute,false,16666.66667,0.0,
+Flow,milliliter/second,meter\u00B3/second,false,1000000.0,0.0,
+Flow,milliliter/second,milliliter/hour,false,2.777777777777778E-4,0.0,
+Flow,milliliter/second,milliliter/minute,false,0.016666666666666666,0.0,
+Flow,milliliter/second,milliliter/second,true,1.0,0.0,
+Flow,milliliter/second,ounce/hour,false,0.008214869323,0.0,
+Flow,milliliter/second,ounce/minute,false,0.4928921594,0.0,
+Flow,milliliter/second,ounce/second,false,29.57352956,0.0,
+Flow,milliliter/second,ounce-UK/hour,false,0.007892520833,0.0,
+Flow,milliliter/second,ounce-UK/minute,false,0.47355125,0.0,
+Flow,milliliter/second,ounce-UK/second,false,28.413075,0.0,
+Flow,milliliter/second,yard\u00B3/hour,false,212.3763494,0.0,
+Flow,milliliter/second,yard\u00B3/minute,false,12742.58097,0.0,
+Flow,milliliter/second,yard\u00B3/second,false,764554.858,0.0,
+Force,N,dyne,false,1.0E-5,0.0,
+Force,N,dyne,false,1.0E-5,0.0,dynes
+Force,N,gf,false,0.00980665,0.0,grams force
+Force,N,gram force,false,0.00980665,0.0,
+Force,N,kilogram force,false,9.80665,0.0,
+Force,N,kilonewton,false,1000.0,0.0,
+Force,N,kip,false,4448.222,0.0,kips
+Force,N,lbf,false,4.448222,0.0,pounds force
+Force,N,millinewton,false,0.0010,0.0,
+Force,N,N,true,1.0,0.0,newton
+Force,N,ounce-force(ozf),false,0.278013851,0.0,
+Force,N,poundals,false,0.138255,0.0,poundals
+Force,N,pound-force(lbf),false,4.448221615,0.0,
+Force,N,sthene,false,1000.0,0.0,sthene
+Force,N,tonnes force,false,9806.65,0.0,tonnes force
+Force,N,tons force,false,8896.443,0.0,tons force (US)
+Force,N,tons force,false,9964.016,0.0,tons force (UK)
+Inductance,H,abH,false,1.0E-9,0.0,abHenry
+Inductance,H,H,true,1.0,0.0,Henry
+Inductance,H,statH,false,9.0E11,0.0,statHenry
+Light,lux,flame,false,43.05564167,0.0,
+Light,lux,foot-candles,false,10.76391042,0.0,
+Light,lux,lux,true,1.0,0.0,
+Light,lux,meter-candles,false,1.0,0.0,
+Magnetic Field Intensity,A/m,A/m,true,1.0,0.0,Ampere/meter
+Magnetic Field Intensity,A/m,Oe,false,79.6,0.0,Oersted
+Magnetic Field Intensity,A/m,statA/cm,false,2.6E-9,0.0,statA/centimeter
+Magnetic Flux Density,T,Gs,false,1.0E-4,0.0,Gauss
+Magnetic Flux Density,T,statT,false,3.0E16,0.0,statTesla
+Magnetic Flux Density,T,T,true,1.0,0.0,Tesla
+Magnetic Flux,Wb,Mx,false,1.0E-8,0.0,Maxwell
+Magnetic Flux,Wb,statWb,false,300.0,0.0,statWeber
+Magnetic Flux,Wb,Wb,true,1.0,0.0,Weber
+Magnetic Permeability,H/m,Gs/Oe,false,1.256637061E-6,0.0,Gauss/Oersted
+Magnetic Permeability,H/m,H/m,true,1.0,0.0,Henry/meter
+Magnetic Permeability,H/m,statH/cm,false,1.1111111111111111E15,0.0,statHenry/centimeter
+Magnetic Reluctance,1/H,1/abH,false,1.0E9,0.0,1/abHenry
+Magnetic Reluctance,1/H,1/H,true,1.0,0.0,1/Henry
+Magnetic Reluctance,1/H,1/statH,false,1.111111111111111E-12,0.0,1/statHenry
+Mass,gram(g),100 weights,false,45359.237,0.0,100 weights (US cwt.)
+Mass,gram(g),carat,false,0.2,0.0,
+Mass,gram(g),carats,false,0.2,0.0,carats (metric)
+Mass,gram(g),catty,false,604.77471,0.0,catty (Asia)
+Mass,gram(g),earth masses,false,5.98E27,0.0,earth masses
+Mass,gram(g),grain(gr),false,0.06479891,0.0,
+Mass,gram(g),grain,false,0.06479891,0.0,grain
+Mass,gram(g),gram(g),true,1.0,0.0,
+Mass,gram(g),kilogram(kg),false,1000.0,0.0,
+Mass,gram(g),lb,false,453.59237,0.0,pounds (avoirdupois)
+Mass,gram(g),megagram(Mg),false,1000000.0,0.0,
+Mass,gram(g),microgram(\u00B5g),false,1.0E-6,0.0,
+Mass,gram(g),milligram(mg),false,0.0010,0.0,
+Mass,gram(g),ounce-avdp(oz),false,28.34952312,0.0,
+Mass,gram(g),ounce-troy(ozt),false,31.103475,0.0,
+Mass,gram(g),oz,false,28.349523125,0.0,ounces (avoirdupois)
+Mass,gram(g),oz,false,31.1034768,0.0,ounces (troy)
+Mass,gram(g),pennyweight,false,1.55517,0.0,pennyweight
+Mass,gram(g),pennyweight,false,1.55517384,0.0,
+Mass,gram(g),pound-advp(lb),false,453.59237,0.0,
+Mass,gram(g),poundal,false,14.08672,0.0,poundal
+Mass,gram(g),pound-troy,false,373.2417,0.0,
+Mass,gram(g),quarter,false,11339.80925,0.0,quarter (US)
+Mass,gram(g),solar masses,false,1.989E33,0.0,solar masses
+Mass,gram(g),stone,false,6350.29318,0.0,
+Mass,gram(g),stone,false,6350.29318,0.0,stones
+Mass,gram(g),ton-long,false,1016046.909,0.0,
+Mass,gram(g),tonne,false,1000000.0,0.0,tonne
+Mass,gram(g),tonne-metric ton(t),false,1000000.0,0.0,
+Mass,gram(g),tons,false,1016046.9088,0.0,tons (UK or long)
+Mass,gram(g),tons,false,907184.74,0.0,tons (US or short)
+Mass,gram(g),ton-short(tn),false,907184.74,0.0,
+Mass,gram(g),um,false,9800.0,0.0,um
+Polarizability,F m\u00B2,abFcm\u00B2,false,100000.0,0.0,abFarad * square centimeter
+Polarizability,F m\u00B2,F m\u00B2,true,1.0,0.0,Farad * square meter
+Polarizability,F m\u00B2,statF cm\u00B2,false,1.1111111111111112E-16,0.0,statFarad * square centimeter
+Power,W,BTU/hour,false,0.2928104185,0.0,
+Power,W,Btu/hour,false,0.293071,0.0,Btu/hour
+Power,W,Btu/min,false,17.584267,0.0,Btu/minute
+Power,W,BTU/minute,false,17.56862511,0.0,
+Power,W,Btu/sec,false,1055.056,0.0,Btu/second
+Power,W,BTU/second,false,1054.117506,0.0,
+Power,W,cal/hour,false,0.001639,0.0,calories/hour
+Power,W,cal/min,false,0.06978,0.0,calories/minute
+Power,W,cal/sec,false,4.1868,0.0,calories/second
+Power,W,calorie/second,false,4.183076342,0.0,
+Power,W,ergs/sec,false,1.0E-7,0.0,ergs/second
+Power,W,ft lbf/min,false,0.022597,0.0,foot pounds-force/minute
+Power,W,ft lbf/sec,false,1.35582,0.0,foot pounds-force/second
+Power,W,gf m/hour,false,2.724,0.0,gram-force meters/hour
+Power,W,gf m/min,false,163.444,0.0,gram-force meters/minute
+Power,W,horsepower,false,745.6998716,0.0,
+Power,W,hp,false,735.499,0.0,horsepowers (metric)
+Power,W,hp,false,745.7,0.0,horsepowers (electric)
+Power,W,J/hour,false,2.777777777777778E-4,0.0,joules/hour
+Power,W,J/s,false,1.0,0.0,joules/second
+Power,W,Joules/min,false,0.016666666666666666,0.0,joules/minute
+Power,W,kilowatt,false,1000.0,0.0,
+Power,W,megawatt,false,1000000.0,0.0,
+Power,W,pound-feet/minute,false,0.02259696581,0.0,
+Power,W,pound-feet/second,false,1.355817948,0.0,
+Power,W,W,true,1.0,0.0,watt
+Speed,m/s,ft/hour,false,8.466666666666667E-5,0.0,feet/hour
+Speed,m/s,ft/min,false,0.00508,0.0,feet/minute
+Speed,m/s,ft/s,false,0.3048,0.0,feet/second
+Speed,m/s,furlongs/hour,false,0.05588,0.0,furlongs/hour
+Speed,m/s,furlongs/min,false,3.3528,0.0,furlongs/minute
+Speed,m/s,furlongs/sec,false,201.168,0.0,furlongs/second
+Speed,m/s,inches/hour,false,7.055555555555555E-6,0.0,inches/hour
+Speed,m/s,inches/min,false,4.2333333333333334E-4,0.0,inches/minute
+Speed,m/s,inches/s,false,0.0254,0.0,inches/second
+Speed,m/s,knots,false,0.514444,0.0,knots
+Speed,m/s,leagues/day,false,0.05588,0.0,leagues/day
+Speed,m/s,m/hour,false,2.777777777777778E-4,0.0,meters/hour
+Speed,m/s,m/min,false,0.016666666666666666,0.0,meters/minute
+Speed,m/s,m/s,false,1.0,0.0,meters/second
+Speed,m/s,m/s,true,1.0,0.0,meters/second
+Speed,m/s,mach,false,340.2933,0.0,Mach number (ISA/SL)
+Speed,m/s,miles/hour,false,0.44704,0.0,miles/hour
+Speed,m/s,miles/min,false,26.822400000000002,0.0,miles/minute
+Speed,m/s,miles/s,false,1609.344,0.0,miles/second
+Speed,m/s,speed of light,false,2.99792458E8,0.0,speed of light
+Speed,m/s,yd/hour,false,2.54E-4,0.0,yards/hour
+Speed,m/s,yd/min,false,0.01524,0.0,yards/minute
+Speed,m/s,yd/s,false,0.9144,0.0,yards/second
+Torque,newton meter(Nm),dyne centimeter(dyncm),false,1.0E-7,0.0,
+Torque,newton meter(Nm),gram-force centimeter(gfcm),false,9.80665E-5,0.0,
+Torque,newton meter(Nm),kilogram-force meter(kgfm),false,9.80665,0.0,
+Torque,newton meter(Nm),kilonewton meter(kNm),false,1000.0,0.0,
+Torque,newton meter(Nm),kilopond meter(kpm),false,9.80665,0.0,
+Torque,newton meter(Nm),meganewton meter(MNm),false,1000000.0,0.0,
+Torque,newton meter(Nm),micronewton meter(\u00B5Nm),false,1.0E-6,0.0,
+Torque,newton meter(Nm),millinewton meter(mNm),false,0.0010,0.0,
+Torque,newton meter(Nm),newton meter(Nm),true,1.0,0.0,
+Torque,newton meter(Nm),ounce-force foot(ozfft),false,0.0847386,0.0,
+Torque,newton meter(Nm),ounce-force inch(ozfin),false,0.00706155,0.0,
+Torque,newton meter(Nm),pound-force foot(lbfft),false,1.35582,0.0,
+Torque,newton meter(Nm),pound-force inch(lbfin),false,0.112984775,0.0,
+Typography,point,agate,false,5.5,0.0,agate
+Typography,point,borgeois,false,9.0,0.0,borgeois
+Typography,point,brevier,false,8.0,0.0,brevier
+Typography,point,brilliant,false,3.5,0.0,brilliant
+Typography,point,canon,false,48.0,0.0,canon
+Typography,point,ciceros,false,12.89763779527559,0.0,ciceros
+Typography,point,columbian,false,16.0,0.0,columbian
+Typography,point,diamond,false,4.0,0.0,diamond
+Typography,point,english,false,14.0,0.0,english
+Typography,point,excelsior,false,3.0,0.0,excelsior
+Typography,point,great primer,false,18.0,0.0,great primer
+Typography,point,inch,false,72.0,0.0,inches
+Typography,point,long primer,false,10.0,0.0,long primer
+Typography,point,m,false,283.46456692913387,0.0,meters
+Typography,point,meridian,false,44.0,0.0,meridian
+Typography,point,mignon,false,7.0,0.0,mignon
+Typography,point,mignonette,false,6.5,0.0,mignonette
+Typography,point,nonpareil,false,6.0,0.0,nonpareil
+Typography,point,paragon,false,20.0,0.0,paragon
+Typography,point,pearl,false,5.0,0.0,pearl
+Typography,point,pica,false,12.0,0.0,pica
+Typography,point,point,true,1.0,0.0,points
+Typography,point,small pica,false,11.0,0.0,small pica
+Typography,point,stick,false,144.0,0.0,stick
+Velocity,meter/second,centimeter/hour,false,2.777777777777778E-6,0.0,
+Velocity,meter/second,centimeter/minute,false,1.6666666666666666E-4,0.0,
+Velocity,meter/second,centimeter/second,false,0.01,0.0,
+Velocity,meter/second,foot/hour,false,8.466666667E-5,0.0,
+Velocity,meter/second,foot/minute,false,0.00508,0.0,
+Velocity,meter/second,foot/second(fps),false,0.3048,0.0,
+Velocity,meter/second,kilometer/hour(kph),false,0.2777777777777778,0.0,
+Velocity,meter/second,kilometer/minute,false,16.666666666666668,0.0,
+Velocity,meter/second,kilometer/second,false,1000.0,0.0,
+Velocity,meter/second,knot,false,0.5144444444444445,0.0,
+Velocity,meter/second,mach,false,331.46,0.0,
+Velocity,meter/second,meter/hour,false,2.777777777777778E-4,0.0,
+Velocity,meter/second,meter/minute,false,0.016666666666666666,0.0,
+Velocity,meter/second,meter/second,true,1.0,0.0,
+Velocity,meter/second,mile/hour(mph),false,0.44704,0.0,
+Velocity,meter/second,mile/minute,false,26.8224,0.0,
+Velocity,meter/second,mile/second,false,1609.344,0.0,
+Velocity,meter/second,speed of light(C),false,2.99792458E8,0.0,
+Volume Dry,liter,barrel,false,115.6271292,0.0,
+Volume Dry,liter,bushel,false,35.23907188,0.0,
+Volume Dry,liter,liter,true,1.0,0.0,
+Volume Dry,liter,peck,false,8.809767971,0.0,
+Volume Dry,liter,pint(pt),false,0.5506104982,0.0,
+Volume Dry,liter,quart,false,1.101220996,0.0,
+
+Wine and Spirits,anker,anker,false,45460.662,0.0,anker
+Wine and Spirits,arroba,arroba,false,16125.8644,0.0,arroba
+Wine and Spirits,aum,aum,false,113559.168,0.0,aum
+Wine and Spirits,balthazar,balthazar,false,12000.0,0.0,balthazar
+Wine and Spirits,barn gallon,barn gallon,false,11365.1663,0.0,barn gallon
+Wine and Spirits,beer barrel,beer barrel,false,136271.0016,0.0,beer barrel
+Wine and Spirits,beer/ale butt/pipe,beer/ale butt/pipe,false,490981.6934,0.0,beer/ale butt/pipe
+Wine and Spirits,beer/ale hogshead (UK),beer/ale hogshead (UK),false,245490.8467,0.0,beer/ale hogshead (UK)
+Wine and Spirits,beer/ale puncheon,beer/ale puncheon,false,272542.0032,0.0,beer/ale puncheon
+Wine and Spirits,beer/ale tun(UK),beer/ale tun(UK),false,981963.3868,0.0,beer/ale tun(UK)
+Wine and Spirits,british bottle,british bottle,false,95467.3969,0.0,british bottle
+Wine and Spirits,cantaro,cantaro,false,13521.1108,0.0,cantaro
+Wine and Spirits,double,double,false,59.1454,0.0,double
+Wine and Spirits,english beer barrel,english beer barrel,false,163650.0,0.0,english beer barrel
+Wine and Spirits,fifth,fifth,false,757.0611,0.0,fifth
+Wine and Spirits,firkin,firkin,false,34067.75,0.0,firkin
+Wine and Spirits,gallon (ale/beer),gallon (ale/beer),false,4620.0,0.0,gallon (ale/beer)
+Wine and Spirits,gallon (US liq),gallon (US liq),false,3785.3056,0.0,gallon (US liq)
+Wine and Spirits,jeroboam,jeroboam,false,3000.0,0.0,jeroboam
+Wine and Spirits,jigger,jigger,false,44.35905,0.0,jigger
+Wine and Spirits,keg,keg,false,37853.056,0.0,keg
+Wine and Spirits,liter,liter,false,1000.0,0.0,liters
+Wine and Spirits,liters,liters,false,1000.0,0.0,liters
+Wine and Spirits,magnum,magnum,false,1500.0,0.0,magnum
+Wine and Spirits,methusaleh,methusaleh,false,6000.0,0.0,methusaleh
+Wine and Spirits,nebuchadnezzar,nebuchadnezzar,false,15000.0,0.0,nebuchadnezzar
+Wine and Spirits,noggin/gill (UK),noggin/gill (UK),false,142.0636,0.0,noggin/gill (UK)
+Wine and Spirits,octave,octave,false,71600.546,0.0,octave
+Wine and Spirits,pony,pony,false,22.179525,0.0,pony
+Wine and Spirits,rehoboam,rehoboam,false,4500.0,0.0,rehoboam
+Wine and Spirits,runlet/kilderkin,runlet/kilderkin,false,68135.5008,0.0,runlet/kilderkin
+Wine and Spirits,salmanezer,salmanezer,false,9000.0,0.0,salmanezer
+Wine and Spirits,shot(ounce),shot(ounce),false,29.5727,0.0,shot(ounce)
+Wine and Spirits,tierce,tierce,false,158982.8352,0.0,tierce
+Wine and Spirits,triple,triple,false,88.7181,0.0,triple
+Wine and Spirits,wine barrel,wine barrel,false,119237.1264,0.0,wine barrel
+Wine and Spirits,wine bottle,wine bottle,false,750.0,0.0,wine bottle
+Wine and Spirits,wine butt/pipe,wine butt/pipe,false,572804.3816,0.0,wine butt/pipe
+Wine and Spirits,wine hogshead (UK),wine hogshead (UK),false,286402.1908,0.0,wine hogshead (UK)
+Wine and Spirits,wine puncheon,wine puncheon,false,317965.6704,0.0,wine puncheon
+Wine and Spirits,wine tun(UK),wine tun(UK),false,1145608.7632,0.0,wine tun(UK)
+Wine and Spirits,yard,yard,false,2365.816,0.0,yard

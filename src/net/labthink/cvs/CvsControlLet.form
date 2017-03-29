@@ -1,0 +1,96 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="UI_TF_name" min="-2" pref="84" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="UI_CB_all" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_read" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_write" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_tag" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_create" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_control" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UI_CB_none" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="103" groupAlignment="3" attributes="0">
+              <Component id="UI_TF_name" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_all" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_read" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_write" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_tag" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_create" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_control" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="UI_CB_none" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="UI_TF_name">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="name   "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_all">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="All"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_read">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Read"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_write">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Write"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_create">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tag"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_tag">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_control">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Control"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="UI_CB_none">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="None"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

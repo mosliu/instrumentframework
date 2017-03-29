@@ -1,0 +1,125 @@
+<@pp.dropOutputFile />
+<@pp.changeOutputFile name=devicename+'.java'/>
+package net.labthink.instrument.device.${devicename}.simulator;
+
+//~--- non-JDK imports --------------------------------------------------------
+
+import net.labthink.utils.BytePlus;
+
+//~--- JDK imports ------------------------------------------------------------
+
+import java.io.Serializable;
+import java.util.BitSet;
+import java.util.Random;
+
+/**
+ * 模拟仪器
+ * @author Moses
+ */
+public class ${devicename} implements Serializable {
+
+	//TODO 需要修改
+    private static final long serialVersionUID = -685345324534534510L;
+
+    private int currentState = 0;
+
+    private String[] stateString =  {<#if device.status?? && device.status?size gt 0 ><#list device.status as x>"${x}"<#if x_has_next>,</#if></#list></#if>};
+
+    private transient  long   startTimeSpot        = 0;
+
+	<#if device.vars?? && device.vars?size gt 0 >
+		<#list device.vars as x>
+	/** ${x.describe!} */
+	private ${x.type} ${x.name} <#if x.default?? >= ${x.default}</#if>;
+		</#list>
+	</#if>
+
+	<#if device.vars?? && device.vars?size gt 0 >
+		<#list device.vars as x>
+
+	/**
+	 * 获取 ${x.describe!} 的值
+     * @return the ${x.name}
+     */
+    public ${x.type} get${x.name?cap_first}() {
+		return ${x.name};
+    }
+
+    /**
+	 * 设定 ${x.describe!} 的值
+     * @param ${x.name}, the ${x.name} to set
+     */
+    public void set${x.name?cap_first}(${x.type} ${x.name}) {
+		this.${x.name} = ${x.name};
+    }
+	<#--按类型进行特殊处理-->
+			<#switch x.type>
+				<#case "byte[]">
+	/**
+	 * 获取 ${x.describe!} 的int值
+     * @return the ${x.name}
+     */
+    public int get${x.name?cap_first}Int() {
+		return BytePlus.bytes2int(${x.name});
+    }
+
+    /**
+	 * 使用int值设定 ${x.describe!}
+     * @param ${x.name}, the ${x.name} to set
+     */
+    public void set${x.name?cap_first}Int(int ${x.name}) {
+		this.${x.name} = BytePlus.getPartBytes(BytePlus.int2bytes(${x.name}),  4-${x.default?substring(x.default?index_of("[")+1,x.default?index_of("]"))},${x.default?substring(x.default?index_of("[")+1,x.default?index_of("]"))});
+    }
+					<#break>
+				<#case "medium">
+				 This will be processed if it is medium
+					<#break>
+				<#case "boolean">
+	/**
+	 * 判断 ${x.describe!} 的值
+     * @return the ${x.name}
+     */
+    public ${x.type} is${x.name?cap_first}() {
+		return ${x.name};
+    }
+					<#break>
+				<#default>
+			</#switch>
+
+		</#list>
+	</#if>
+
+    private Random rand = new Random(System.currentTimeMillis());
+
+    /**
+     * 构造函数
+     *
+     */
+    public ${devicename}() {}
+
+	//TODO 是否需要预设一些值
+    public void PreSetSimulatorParameters(int balancetime,int muliplier) {
+	/*
+        cell1.setBalancetime(balancetime);
+        cell1.setMultiplier(muliplier);
+        cell1.setComputeFlag(1);
+//        cell1.setComputeFlag(0);
+        cell1.setPressureInt(rand.nextInt(13000));
+        cell2.setBalancetime(balancetime);
+        cell2.setMultiplier(muliplier);
+        cell2.setComputeFlag(2);
+//        cell2.setComputeFlag(0);
+        cell2.setPressureInt(rand.nextInt(13000));
+        cell3.setBalancetime(balancetime);
+        cell3.setMultiplier(muliplier);
+        cell3.setComputeFlag(3);
+//        cell3.setComputeFlag(0);
+        cell3.setPressureInt(rand.nextInt(13000));
+	*/
+    }
+
+    public static void main(String[] args) {
+
+    }
+
+}

@@ -1,0 +1,58 @@
+# encoding: UTF-8
+sourceRoot: template1
+outputRoot: CHYCA
+sourceEncoding:UTF-8
+outputEncoding:UTF-8
+borders: [
+    border(
+        "<@pp.dropOutputFile /><@pp.changeOutputFile name=devicename+pp.outputFileName?substring(0, pp.outputFileName?index_of('.ftl'))+'.java'/>"
+        ""
+        **/*.ftl
+    )
+]
+data: {
+    tdd(data/device.tdd)
+	author: Moses
+	date: 2010/08/20
+	version: 1.0.0.0
+	devicename: CHYCA
+
+	packet: {
+		in:{total:9,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+		out:{total:9,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+	}
+
+	protocal:{
+		switchsrc:incontent
+		setsrc:incontent
+		setdest:outmsgcontent
+		switchpos:0
+		errorpkt:"(byte)0x01,(byte)0x00"
+		switchcase:[
+			{
+				func: 00
+				describe: 试验
+				action:{
+					setdevice:[
+						{aim:"devicepower",value:"true"}
+						{aim:"testing",value:"true"}
+					]
+				}
+			}
+		]
+	}
+
+	device:{
+		status:["待机","试验"]
+		vars:[
+			{name:"devicepower",type:"boolean",default:"false",describe:"机器是否上电"}
+			{name:"testing",type:"boolean",default:"false",describe:"是否正在试验"}
+			{name:"currentcalue",type:"byte[]",default:"new byte[3]",describe:"当前值"}
+                        {name:"averagecalue",type:"byte[]",default:"new byte[3]",describe:"平均值"}
+			{name:"deltavalue",type:"byte[]",default:"new byte[2]",describe:"标准差"}
+			{name:"maxvalue",type:"byte[]",default:"new byte[3]",describe:"最大值"}
+			{name:"minvalue",type:"byte[]",default:"new byte[3]",describe:"最小值"}
+		]
+	}
+
+}

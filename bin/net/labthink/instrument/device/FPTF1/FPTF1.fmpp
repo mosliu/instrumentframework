@@ -1,0 +1,319 @@
+# encoding: UTF-8
+sourceRoot: template1
+outputRoot: ../FPTF1
+sourceEncoding:UTF-8
+outputEncoding:UTF-8
+borders: [
+    border(
+        "<@pp.dropOutputFile /><@pp.changeOutputFile name=devicename+pp.outputFileName?substring(0, pp.outputFileName?index_of('.ftl'))+'.java'/>"
+        ""
+        **/*.ftl
+    )
+]
+data: {
+    tdd(data/device.tdd)
+	author: Moses
+	date: 2010/08/24
+	version: 1.0.0.0
+	devicename: FPTF1
+
+	packet: {
+		in:{total:13,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+		out:{total:12,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+	}
+
+	protocal:{
+		switchsrc:incontent
+		setsrc:incontent
+		setdest:outmsgcontent
+		switchpos:1
+		errorpkt:"(byte)0x01,(byte)0x00"
+		switchcase:[
+			{
+				func: 00
+				describe: 启动试验
+				action:{
+					setdevice:[
+						{aim:"devicepower",value:"true"}
+						{aim:"testing",value:"true"}
+					]
+                                        setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					copyvalue:[
+						{infrom:0,outfrom:0,length:1,describe:" (00  剥离试验启动    01  摩擦试验启动) "}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 01
+				describe: 停止试验
+				action:{
+					setvalue:[
+						{id:00,value:0x02,describe:"X1:02 02  停止试验"}
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 02
+				describe: " 设定温度（最大值：100.0） D1,D2分别为设定值的高位和低位"
+				action:{
+					setdevice:[
+						{aim:"temperature",startposition:2}
+					]
+                                        setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 03
+				describe: " 设定PID参数 D1,D2 -- P项参数，D3,D4--I项参数,D5,D6--D项参数 高位在前"
+				action:{
+					setdevice:[
+						{aim:"pidP",startposition:2}
+						{aim:"pidI",startposition:4}
+						{aim:"pidD",startposition:6}
+					]
+                                        setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 04
+				describe: " 加热状态设定 D1为00不加热 D1为11 加热；"
+				action:{
+					setdevice:[
+						{aim:"heatflag",startposition:2}
+					]
+                                        setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 05
+				describe: " 速度设定 D1=01  SPD=25mm/min D1=02  SPD=50mm/min D1=03  SPD=100mm/min D1=04  SPD=150mm/min D1=05  SPD=200mm/min D1=06  SPD=250mm/min D1=07  SPD=300mm/min D1=08  SPD=500mm/min"
+				action:{
+					setdevice:[
+						{aim:"speed",startposition:2}
+					]
+                                        setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 06
+				describe: " 系统标定"
+				protocal:{
+					switchsrc:incontent
+					switchpos:2
+					switchcase:[
+						{
+							func: 00
+							describe: "温度零点 11H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+                                                                        {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                                                ]
+								setdevice:[
+									{aim:"tempzero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 1
+							describe: "温度终点 12H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+                                                                        {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                                                ]
+								setdevice:[
+									{aim:"tempend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 02
+							describe: "低压零点         17H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+                                                                        {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                                                ]
+								setdevice:[
+									{aim:"pressurezero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 03
+							describe: "低压终点         18H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+                                                                        {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                                                ]
+								setdevice:[
+									{aim:"pressureend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+					]
+				}
+			}
+			{
+				func: 07
+				describe: "07 -- 确认帧"
+				action:{
+					setdevice:[
+						{aim:"speed",startposition:2}
+					]
+                                        setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 08
+				describe: "08 --时间校正"
+				action:{
+					setdevice:[
+						{aim:"year",startposition:2}
+						{aim:"month",startposition:3}
+						{aim:"day",startposition:4}
+						{aim:"hour",startposition:5}
+						{aim:"minute",startposition:6}
+						{aim:"second",startposition:7}
+					]
+                                        setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 09
+				describe: "09 -- 归位 D1 - 数据（单位：秒）"
+				action:{
+					clearposition:1
+				}
+			}
+			{
+				func: 0A
+				describe: "标定查看  "
+				action:{
+					setvalue:[
+						{id:00,value:0x05,describe:"05  标定查看(FH FL为显示力值)"}
+						{id:01,value:0x00,describe:"TODO(FH FL为显示力值),FH"}
+						{id:02,value:0x64,describe:"(FH FL为显示力值),FL"}
+					]
+					setdevice:[
+						{aim:"speed",startposition:2}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 0B
+				describe: " 0B -- 系统复位"
+				action:{
+					setvalue:[
+						{id:00,value:0x08,describe:"08  复位"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 0C
+				describe: "0C -- 工进"
+				action:{
+					setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 0D
+				describe: "0D -- 试验完成归位"
+                                action:{
+					setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 0E
+				describe: "0E -- 后退"
+                                action:{
+					setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 0F
+				describe: "0F -- 停止移动"
+                                action:{
+					setvalue:[
+                                                {id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+                                        ]
+					clearposition:1
+				}
+			}
+			{
+				func: 10
+				describe: "10 -- 传感器量程更换D1=01 5N   D1=02 10N  D1=03 30N "
+				action:{
+					setvalue:[
+						{id:00,value:0x04,describe:"04  确认帧（用于对计算机命令的应答）"}
+					]
+					copyvalue:[
+						{infrom:2,outfrom:1,length:1,describe:" D1=01 5N   D1=02 10N  D1=03 30N "}
+					]
+					clearposition:1
+				}
+			}
+		]
+	}
+
+	device:{
+		status:["待机","上腔吹洗"]
+		vars:[
+			{name:"devicepower",type:"boolean",default:"false",describe:"机器是否上电"}
+			{name:"testing",type:"boolean",default:"false",describe:"是否正在试验"}
+			{name:"temperature",type:"byte[]",default:"new byte[2]",describe:"温度设定值"}
+			{name:"pidP",type:"byte[]",default:"new byte[2]",describe:"PIDP参数"}
+			{name:"pidI",type:"byte[]",default:"new byte[2]",describe:"PIDI参数"}
+			{name:"pidD",type:"byte[]",default:"new byte[2]",describe:"PIDD参数"}
+			{name:"heatflag",type:"byte",default:"0",describe:"是否加热"}
+			{name:"speed",type:"byte",default:"0",describe:"速度设定 D1=01  SPD=25mm/min D1=02  SPD=50mm/min D1=03  SPD=100mm/min D1=04  SPD=150mm/min D1=05  SPD=200mm/min D1=06  SPD=250mm/min D1=07  SPD=300mm/min D1=08  SPD=500mm/min"}
+			{name:"tempzero",type:"byte[]",default:"new byte[2]",describe:"温度零点"}
+			{name:"tempend",type:"byte[]",default:"new byte[2]",describe:"温度终点"}
+			{name:"pressurezero",type:"byte[]",default:"new byte[2]",describe:"压力零点"}
+			{name:"pressureend",type:"byte[]",default:"new byte[2]",describe:"压力终点"}
+			{name:"year",type:"byte",default:"0",describe:"年"}
+			{name:"month",type:"byte",default:"0",describe:"月"}
+			{name:"day",type:"byte",default:"0",describe:"日"}
+			{name:"hour",type:"byte",default:"0",describe:"时"}
+			{name:"minute",type:"byte",default:"0",describe:"分"}
+			{name:"second",type:"byte",default:"0",describe:"秒"}
+		]
+	}
+
+}

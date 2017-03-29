@@ -1,0 +1,8 @@
+function(name,body) ::= <<
+void $name$() $body$
+>>
+
+slist(statements) ::= <<
+{
+    $statements; separator="\n"$
+}>>

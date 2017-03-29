@@ -1,0 +1,43 @@
+# encoding: UTF-8
+sourceRoot: template1
+outputRoot: ../OxygenTransducer
+sourceEncoding:UTF-8
+outputEncoding:UTF-8
+borders: [
+    border(
+        "<@pp.dropOutputFile /><@pp.changeOutputFile name=devicename+pp.outputFileName?substring(0, pp.outputFileName?index_of('.ftl'))+'.java'/>"
+        ""
+        **/*.ftl
+    )
+]
+data: {
+    tdd(data/device.tdd)
+	author: Moses
+	date: 2011/07/29
+	version: 1.0.0.0
+	devicename: OxygenTransducer
+
+	packet: {
+		in:{total:8,head:8181,tail:null,headlen:2,taillen:0}
+		out:{total:8,head:null,tail:null,headlen:0,taillen:0}
+	}
+
+	protocal:{
+		switchsrc:incontent
+		setsrc:incontent
+		setdest:outmsgcontent
+		switchpos:0
+		errorpkt:"(byte)0x01,(byte)0x00"
+                switchcase:[
+                    
+                ]
+	}
+
+	device:{
+		status:["",""]
+		vars:[
+			
+		]
+	}
+
+}

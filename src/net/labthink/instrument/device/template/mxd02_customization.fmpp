@@ -1,0 +1,49 @@
+# encoding: UTF-8
+sourceRoot: template1
+outputRoot: ../MXD02
+sourceEncoding:UTF-8
+outputEncoding:UTF-8
+borders: [
+    border(
+        "<@pp.dropOutputFile /><@pp.changeOutputFile name=devicename+pp.outputFileName?substring(0, pp.outputFileName?index_of('.ftl'))+'.java'/>"
+        ""
+        **/*.ftl
+    )
+]
+data: {
+    tdd(data/device.tdd)
+	author: Moses
+	date: 2010/08/24
+	version: 1.0.0.0
+	devicename: MXD02
+
+	packet: {
+		in:{total:12,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+		out:{total:12,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+	}
+
+	protocal:{
+		switchsrc:incontent
+		setsrc:incontent
+		setdest:outmsgcontent
+		switchpos:0
+		errorpkt:"(byte)0x01,(byte)0x00"
+                switchcase:[
+                    
+                ]
+	}
+
+	device:{
+		status:["",""]
+		vars:[
+			{name:"resend",type:"boolean",default:"false",describe:"是否重发"}
+			{name:"checkerror",type:"boolean",default:"false",describe:"是否校验错"}
+                                                                  {name:"content",type:"byte[]",default:"new byte[8]",describe:"内容"}
+			{name:"checksum",type:"byte",default:"0",describe:"SM校验位"}
+                       		{name:"testtype",type:"byte",default:"0",describe:"实验类型"}
+                       		{name:"testtimes",type:"byte",default:"0",describe:"实验件数"}
+                      		{name:"sledmess",type:"byte",default:"0",describe:"滑块质量"}
+		]
+	}
+
+}

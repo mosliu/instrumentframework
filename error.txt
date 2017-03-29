@@ -1,0 +1,137 @@
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 1 column 1 - Warning: plain text isn't allowed in <head> elements
+line 1 column 3 - Warning: unknown attribute "xmlns:st1"
+line 1 column 3 - Warning: unknown attribute "xmlns:m"
+line 1 column 3 - Warning: unknown attribute "xmlns:w"
+line 1 column 3 - Warning: unknown attribute "xmlns:o"
+line 1 column 3 - Warning: unknown attribute "xmlns:v"
+line 1 column 3 - Warning: discarding unexpected <html>
+line 8 column 2 - Warning: <head> isn't allowed in <body> elements
+line 9 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 10 column 2 - Warning: <meta> isn't allowed in <body> elements
+line 11 column 2 - Warning: <meta> isn't allowed in <body> elements
+line 12 column 2 - Warning: <meta> isn't allowed in <body> elements
+line 13 column 2 - Warning: <link> isn't allowed in <body> elements
+line 14 column 2 - Warning: <link> isn't allowed in <body> elements
+line 15 column 2 - Warning: <link> isn't allowed in <body> elements
+line 23 column 13 - Error: o:smarttagtype is not recognized!
+line 23 column 13 - Warning: discarding unexpected o:smarttagtype
+line 25 column 2 - Error: o:smarttagtype is not recognized!
+line 25 column 2 - Warning: discarding unexpected o:smarttagtype
+line 27 column 2 - Error: o:smarttagtype is not recognized!
+line 27 column 2 - Warning: discarding unexpected o:smarttagtype
+line 29 column 2 - Error: o:smarttagtype is not recognized!
+line 29 column 2 - Warning: discarding unexpected o:smarttagtype
+line 31 column 2 - Error: o:smarttagtype is not recognized!
+line 31 column 2 - Warning: discarding unexpected o:smarttagtype
+line 33 column 2 - Error: o:smarttagtype is not recognized!
+line 33 column 2 - Warning: discarding unexpected o:smarttagtype
+line 58 column 1 - Warning: <link> isn't allowed in <body> elements
+line 59 column 2 - Warning: <link> isn't allowed in <body> elements
+line 386 column 1 - Warning: <style> lacks "type" attribute
+line 386 column 1 - Warning: <style> isn't allowed in <body> elements
+line 3,539 column -3 - Warning: </head> isn't allowed in <body> elements
+line 3,541 column 2 - Warning: <body> isn't allowed in <body> elements
+line 3,547 column 47 - Warning: <o:p> is not approved by W3C
+line 3,550 column 47 - Warning: <o:p> is not approved by W3C
+line 3,553 column 47 - Warning: <o:p> is not approved by W3C
+line 3,556 column 47 - Warning: <o:p> is not approved by W3C
+line 3,559 column 47 - Warning: <o:p> is not approved by W3C
+line 3,562 column 47 - Warning: <o:p> is not approved by W3C
+line 3,567 column 66 - Warning: <o:p> is not approved by W3C
+line 3,567 column 66 - Warning: trimming empty <o:p>
+line 3,574 column 31 - Warning: <o:p> is not approved by W3C
+line 3,574 column 31 - Warning: trimming empty <o:p>
+line 3,574 column 37 - Warning: trimming empty <span>
+line 3,574 column 44 - Warning: trimming empty <font>
+line 3,579 column 29 - Warning: <o:p> is not approved by W3C
+line 3,579 column 29 - Warning: trimming empty <o:p>
+line 3,584 column 18 - Warning: <o:p> is not approved by W3C
+line 3,584 column 18 - Warning: trimming empty <o:p>
+line 3,588 column 36 - Warning: <o:p> is not approved by W3C
+line 3,596 column 9 - Warning: <o:p> is not approved by W3C
+line 3,596 column 10 - Warning: trimming empty <o:p>
+line 3,596 column 16 - Warning: trimming empty <span>
+line 3,596 column 23 - Warning: trimming empty <font>
+line 3,596 column 30 - Warning: trimming empty <b>
+line 3,600 column 8 - Warning: <o:p> is not approved by W3C
+line 3,612 column 9 - Warning: <o:p> is not approved by W3C
+line 3,614 column 38 - Warning: trimming empty <span>
+line 3,618 column 43 - Warning: <o:p> is not approved by W3C
+line 3,618 column 43 - Warning: trimming empty <o:p>
+line 3,630 column 29 - Warning: <o:p> is not approved by W3C
+line 3,641 column 29 - Warning: <o:p> is not approved by W3C
+line 3,650 column 23 - Warning: <o:p> is not approved by W3C
+line 3,650 column 23 - Warning: trimming empty <o:p>
+line 3,654 column 29 - Warning: <o:p> is not approved by W3C
+line 3,666 column 9 - Warning: <o:p> is not approved by W3C
+line 3,671 column 18 - Warning: <o:p> is not approved by W3C
+line 3,671 column 18 - Warning: trimming empty <o:p>
+line 3,676 column 17 - Warning: <o:p> is not approved by W3C
+line 3,676 column 17 - Warning: trimming empty <o:p>
+line 3,686 column 66 - Warning: <o:p> is not approved by W3C
+line 3,686 column 66 - Warning: trimming empty <o:p>
+line 3,695 column 38 - Warning: <o:p> is not approved by W3C
+line 3,695 column 38 - Warning: trimming empty <o:p>
+line 3,704 column 45 - Warning: <o:p> is not approved by W3C
+line 3,704 column 45 - Warning: trimming empty <o:p>
+line 3,713 column 44 - Warning: <o:p> is not approved by W3C
+line 3,713 column 44 - Warning: trimming empty <o:p>
+line 3,722 column 40 - Warning: <o:p> is not approved by W3C
+line 3,722 column 40 - Warning: trimming empty <o:p>
+line 3,731 column 39 - Warning: <o:p> is not approved by W3C
+line 3,731 column 39 - Warning: trimming empty <o:p>
+line 3,741 column 64 - Warning: <o:p> is not approved by W3C
+line 3,741 column 64 - Warning: trimming empty <o:p>
+line 3,750 column 49 - Warning: <o:p> is not approved by W3C
+line 3,750 column 49 - Warning: trimming empty <o:p>
+line 3,759 column 39 - Warning: <o:p> is not approved by W3C
+line 3,759 column 39 - Warning: trimming empty <o:p>
+line 3,769 column 62 - Warning: <o:p> is not approved by W3C
+line 3,769 column 62 - Warning: trimming empty <o:p>
+line 3,778 column 48 - Warning: <o:p> is not approved by W3C
+line 3,778 column 48 - Warning: trimming empty <o:p>
+line 3,787 column 53 - Warning: <o:p> is not approved by W3C
+line 3,787 column 53 - Warning: trimming empty <o:p>
+line 3,797 column 63 - Warning: <o:p> is not approved by W3C
+line 3,797 column 63 - Warning: trimming empty <o:p>
+line 3,806 column 38 - Warning: <o:p> is not approved by W3C
+line 3,806 column 38 - Warning: trimming empty <o:p>
+line 3,815 column 51 - Warning: <o:p> is not approved by W3C
+line 3,815 column 51 - Warning: trimming empty <o:p>
+line 3,824 column 49 - Warning: <o:p> is not approved by W3C
+line 3,824 column 49 - Warning: trimming empty <o:p>
+line 3,833 column 45 - Warning: <o:p> is not approved by W3C
+line 3,833 column 45 - Warning: trimming empty <o:p>
+line 3,842 column 43 - Warning: <o:p> is not approved by W3C
+line 3,842 column 43 - Warning: trimming empty <o:p>
+line 3,852 column 65 - Warning: <o:p> is not approved by W3C
+line 3,852 column 65 - Warning: trimming empty <o:p>
+line 3,861 column 49 - Warning: <o:p> is not approved by W3C
+line 3,861 column 49 - Warning: trimming empty <o:p>
+line 3,870 column 54 - Warning: <o:p> is not approved by W3C
+line 3,870 column 54 - Warning: trimming empty <o:p>
+line 3,879 column 47 - Warning: <o:p> is not approved by W3C
+line 3,879 column 47 - Warning: trimming empty <o:p>
+line 3,884 column 18 - Warning: <o:p> is not approved by W3C
+line 3,884 column 18 - Warning: trimming empty <o:p>
+line 3,889 column 27 - Warning: <o:p> is not approved by W3C
+line 3,889 column 27 - Warning: trimming empty <o:p>
+line 3,894 column 16 - Warning: <o:p> is not approved by W3C
+line 3,894 column 16 - Warning: trimming empty <o:p>
+line 3,899 column 27 - Warning: <o:p> is not approved by W3C
+line 3,899 column 27 - Warning: trimming empty <o:p>
+line 3,907 column 74 - Warning: <o:p> is not approved by W3C
+line 3,907 column 75 - Warning: trimming empty <o:p>
+line 3,907 column 81 - Warning: trimming empty <span>
+line 3,907 column 88 - Warning: trimming empty <font>
+line 3,907 column 95 - Warning: trimming empty <b>
+line 3,907 column 99 - Warning: trimming empty <span>
+line 3,913 column 20 - Warning: <o:p> is not approved by W3C
+line 3,913 column 20 - Warning: trimming empty <o:p>
+line 3,918 column 55 - Warning: <o:p> is not approved by W3C
+line 3,918 column 55 - Warning: trimming empty <o:p>
+line 3,928 column 28 - Warning: <o:p> is not approved by W3C
+line 3,928 column 28 - Warning: trimming empty <o:p>
+line 3,930 column 3 - Warning: <span> isn't allowed in <tr> elements
+line 3,930 column 40 - Warning: trimming empty <span

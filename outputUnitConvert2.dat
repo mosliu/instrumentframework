@@ -1,0 +1,580 @@
+Electric Capacitance,F,F,true,1.0,0.0,Farad
+Electric Capacitance,F,abF,false,1.0E9,0.0,abFarad
+Electric Capacitance,F,statF,false,1.111111111111111E-12,0.0,statFarad
+Length or Distance,--- Ancient Mesopotamia ---,--- Ancient Egypt ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Ancient Greece ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Ancient Mesopotamia ---,true,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Ancient Persia ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Ancient Roman Empire ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Foreign ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,--- Units from Bible ---,false,1.0,0.0,
+Length or Distance,--- Ancient Mesopotamia ---,AU,false,1.4959855E11,0.0,astronomical unit
+Length or Distance,--- Ancient Mesopotamia ---,actus,false,35.4048,0.0,actus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,akaina,false,3.088,0.0,akaina (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,amma,false,0.45,0.0,amma (Bible)
+Length or Distance,--- Ancient Mesopotamia ---,ammat,false,0.53,0.0,ammat (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,arabian foot,false,0.31919,0.0,arabian foot
+Length or Distance,--- Ancient Mesopotamia ---,arasni,false,0.52,0.0,arasni (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,arasni,false,0.543,0.0,arasni (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,asparsa,false,195.0,0.0,asparsa (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,asparsa,false,187.0,0.0,asparsa (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,assbaa,false,0.02,0.0,assbaa (Arabia)
+Length or Distance,--- Ancient Mesopotamia ---,assyrian foot,false,2.63042,0.0,assyrian foot
+Length or Distance,--- Ancient Mesopotamia ---,ater,false,6288.0,0.0,ater (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,barleycorns,false,0.008467,0.0,barleycorns
+Length or Distance,--- Ancient Mesopotamia ---,bema,false,0.772,0.0,bema (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,cable lenghts,false,219.456,0.0,cable lenghts
+Length or Distance,--- Ancient Mesopotamia ---,cables,false,182.88,0.0,cables
+Length or Distance,--- Ancient Mesopotamia ---,cane,false,3.84049,0.0,cane (Persia)
+Length or Distance,--- Ancient Mesopotamia ---,chain,false,20.1168,0.0,surveyors chains
+Length or Distance,--- Ancient Mesopotamia ---,charac,false,0.2715,0.0,charac (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,charac,false,0.26,0.0,charac (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,chebel,false,21.03124,0.0,chebel (Persia)
+Length or Distance,--- Ancient Mesopotamia ---,condylos,false,0.0386,0.0,condylos (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,covado,false,0.68479,0.0,covado (Brazil)
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.46269,0.0,cubit (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.52,0.0,cubit (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.524,0.0,royal cubit (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.543,0.0,cubit (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.64161,0.0,cubit (India)
+Length or Distance,--- Ancient Mesopotamia ---,cubit,false,0.4318,0.0,cubit
+Length or Distance,--- Ancient Mesopotamia ---,cubitus,false,0.44256,0.0,cubitus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,daktylos,false,0.0193,0.0,daktylos (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,decempeda,false,2.9504,0.0,decempeda (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,diaulos,false,370.8,0.0,diaulos (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,dichas,false,0.1544,0.0,dichas (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,digit,false,0.01767,0.0,digit (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,digit,false,0.0187,0.0,digit (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,digit,false,0.0193,0.0,digit(Greece)
+Length or Distance,--- Ancient Mesopotamia ---,digitus,false,0.01844,0.0,digitus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,dolichos,false,2224.8,0.0,dolichos (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,earth diameter,false,1.274263E7,0.0,earth diameter
+Length or Distance,--- Ancient Mesopotamia ---,ell,false,0.875,0.0,ell (UK)
+Length or Distance,--- Ancient Mesopotamia ---,ems,false,0.0042333,0.0,ems (pica)
+Length or Distance,--- Ancient Mesopotamia ---,esba,false,0.01875,0.0,esba (Bible)
+Length or Distance,--- Ancient Mesopotamia ---,fathom,false,1854.0,0.0,fathom (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,fathoms,false,1.8288,0.0,fathoms
+Length or Distance,--- Ancient Mesopotamia ---,fet,false,0.31394,0.0,fet (Iceland)
+Length or Distance,--- Ancient Mesopotamia ---,fod,false,0.31369,0.0,fod (Denmark)
+Length or Distance,--- Ancient Mesopotamia ---,fot,false,0.29667,0.0,fot (Sweden)
+Length or Distance,--- Ancient Mesopotamia ---,ft,false,0.3048,0.0,feet (UK and US)
+Length or Distance,--- Ancient Mesopotamia ---,ft,false,0.3048006096,0.0,feet (US survey)
+Length or Distance,--- Ancient Mesopotamia ---,furlongs,false,201.168,0.0,furlongs
+Length or Distance,--- Ancient Mesopotamia ---,fuss,false,0.3,0.0,fuss (Switzerland)
+Length or Distance,--- Ancient Mesopotamia ---,ghalva,false,230.42925,0.0,ghalva (Arabia)
+Length or Distance,--- Ancient Mesopotamia ---,gradus,false,0.7376,0.0,gradus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,guz,false,0.9144,0.0,guz (India)
+Length or Distance,--- Ancient Mesopotamia ---,guz,false,1.086,0.0,guz (Persia) (max)
+Length or Distance,--- Ancient Mesopotamia ---,guz,false,1.04,0.0,guz (Persia) (min)
+Length or Distance,--- Ancient Mesopotamia ---,hand,false,0.106,0.0,hand
+Length or Distance,--- Ancient Mesopotamia ---,hasta,false,0.64161,0.0,hasta (India)
+Length or Distance,--- Ancient Mesopotamia ---,inch,false,0.0254,0.0,inch
+Length or Distance,--- Ancient Mesopotamia ---,kapsu,false,5724.0,0.0,kapsu (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,kassabah,false,3.55007,0.0,kassabah (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,keup,false,0.25,0.0,keup (Thailand)
+Length or Distance,--- Ancient Mesopotamia ---,khet,false,52.4,0.0,khet (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,khvat,false,1.89611,0.0,khvat (Yugoslavia)
+Length or Distance,--- Ancient Mesopotamia ---,klafter,false,1.89281,0.0,klafter (Argentina)
+Length or Distance,--- Ancient Mesopotamia ---,kus,false,0.53,0.0,kus (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,league,false,4828.042,0.0,league (US survey)
+Length or Distance,--- Ancient Mesopotamia ---,light second,false,2.99792458E8,0.0,light second
+Length or Distance,--- Ancient Mesopotamia ---,light year,false,9.4605E15,0.0,light year
+Length or Distance,--- Ancient Mesopotamia ---,light year,false,9.460753090819E15,0.0,light year
+Length or Distance,--- Ancient Mesopotamia ---,ligne,false,0.00208,0.0,ligne (Switzerland)
+Length or Distance,--- Ancient Mesopotamia ---,linje,false,0.02078,0.0,linje (Sweden)
+Length or Distance,--- Ancient Mesopotamia ---,link,false,0.20117,0.0,link
+Length or Distance,--- Ancient Mesopotamia ---,m,false,1.0,0.0,meter
+Length or Distance,--- Ancient Mesopotamia ---,m,false,1.0,0.0,meter
+Length or Distance,--- Ancient Mesopotamia ---,major palmus,false,0.22128,0.0,major palmus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,mansion,false,25600.0,0.0,mansion (Persia)
+Length or Distance,--- Ancient Mesopotamia ---,mile,false,10000.0,0.0,mile (Sweden)
+Length or Distance,--- Ancient Mesopotamia ---,mile,false,1609.344,0.0,mile (UK and US)
+Length or Distance,--- Ancient Mesopotamia ---,mile,false,1852.0,0.0,mile (nautical)
+Length or Distance,--- Ancient Mesopotamia ---,mille passus,false,1475.2,0.0,mille passus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,milliarium,false,1475.2,0.0,milliarium (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,minor palmus,false,0.07376,0.0,minor palmus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,nautical league,false,5556.0,0.0,nautical league (US&Int)
+Length or Distance,--- Ancient Mesopotamia ---,new ch'in,false,0.35814,0.0,new ch'in (China)
+Length or Distance,--- Ancient Mesopotamia ---,new li \#1,false,0.0010,0.0,new li \#1 (China)
+Length or Distance,--- Ancient Mesopotamia ---,new li \#2,false,1000.0,0.0,new li \#2 (China)
+Length or Distance,--- Ancient Mesopotamia ---,old cubit,false,0.525,0.0,old cubit (Bible)
+Length or Distance,--- Ancient Mesopotamia ---,old li,false,644.6401,0.0,old li (China)
+Length or Distance,--- Ancient Mesopotamia ---,orgyia,false,1854.0,0.0,orgyia(Greece)
+Length or Distance,--- Ancient Mesopotamia ---,palaiste,false,0.0772,0.0,palaiste (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,palaz,false,0.03631,0.0,palaz (Yugoslavia)
+Length or Distance,--- Ancient Mesopotamia ---,palm,false,0.075,0.0,palm (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,palmites,false,0.3688,0.0,palmites (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,parasang,false,5724.0,0.0,parasang (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,parasang,false,5610.0,0.0,parasang (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,parasang,false,5850.0,0.0,parasang (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,parathanka,false,5850.0,0.0,parathanka (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,parathanka,false,5610.0,0.0,parathanka (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,parsecs,false,3.085677E16,0.0,parsecs
+Length or Distance,--- Ancient Mesopotamia ---,passus,false,1.4752,0.0,passus (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,pe,false,0.32918,0.0,pe (Brazil)
+Length or Distance,--- Ancient Mesopotamia ---,pechya,false,0.4632,0.0,pechya (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,pechya,false,0.46269,0.0,pechya (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,perche,false,5.0292,0.0,perche
+Length or Distance,--- Ancient Mesopotamia ---,pes,false,0.29504,0.0,pes(Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,pie,false,0.27871,0.0,pie (Spain)
+Length or Distance,--- Ancient Mesopotamia ---,pied,false,0.3,0.0,pied (Switzerland)
+Length or Distance,--- Ancient Mesopotamia ---,plethron,false,30.88,0.0,plethron (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,pole,false,5.0292,0.0,pole
+Length or Distance,--- Ancient Mesopotamia ---,pous,false,0.3088,0.0,pous (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,pulgada,false,0.02323,0.0,pulgada (Spain)
+Length or Distance,--- Ancient Mesopotamia ---,pygon,false,0.386,0.0,pygon (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,qanu,false,3.18,0.0,qanu (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,qat,false,3.18,0.0,qat (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,remen,false,0.371,0.0,remen (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,rif,false,0.77699,0.0,rif (Yugoslavia)
+Length or Distance,--- Ancient Mesopotamia ---,rod,false,5.0292,0.0,rod
+Length or Distance,--- Ancient Mesopotamia ---,sen,false,335.24,0.0,sen (Thailand)
+Length or Distance,--- Ancient Mesopotamia ---,shep,false,0.075,0.0,shep (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,shun,false,0.3,0.0,shun (Switzerland)
+Length or Distance,--- Ancient Mesopotamia ---,shusi,false,0.01767,0.0,shusi (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,solar diameter,false,1.3919E9,0.0,solar diameter
+Length or Distance,--- Ancient Mesopotamia ---,sos,false,191.0,0.0,sos (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,span,false,0.2286,0.0,span
+Length or Distance,--- Ancient Mesopotamia ---,spithame,false,0.2316,0.0,spithame (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,stadion,false,187.0,0.0,stadion (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,stadion,false,185.4,0.0,stadion (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,stadion,false,195.0,0.0,stadion (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,stadium,false,184.4,0.0,stadium (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,stathmos,false,25800.0,0.0,stathmos (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,stopa,false,0.28804,0.0,stopa (Poland)
+Length or Distance,--- Ancient Mesopotamia ---,theb,false,0.01875,0.0,theb (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,tophah,false,0.075,0.0,tophah (Bible)
+Length or Distance,--- Ancient Mesopotamia ---,uban,false,0.01767,0.0,uban (Mesopotamia)
+Length or Distance,--- Ancient Mesopotamia ---,uncia,false,0.02458,0.0,uncia (Roman Empire)
+Length or Distance,--- Ancient Mesopotamia ---,vara,false,0.86624,0.0,vara (Argentina)
+Length or Distance,--- Ancient Mesopotamia ---,varas,false,0.84667,0.0,varas (Texas)
+Length or Distance,--- Ancient Mesopotamia ---,verst,false,1065.2752,0.0,verst (Russia)
+Length or Distance,--- Ancient Mesopotamia ---,vitasti,false,0.2715,0.0,vitasti (Persia) max
+Length or Distance,--- Ancient Mesopotamia ---,vitasti,false,0.26,0.0,vitasti (Persia) min
+Length or Distance,--- Ancient Mesopotamia ---,xylon,false,1.3896,0.0,xylon (Greece)
+Length or Distance,--- Ancient Mesopotamia ---,yard,false,0.9144,0.0,yard
+Length or Distance,--- Ancient Mesopotamia ---,zebo,false,0.0187,0.0,zebo (Egypt)
+Length or Distance,--- Ancient Mesopotamia ---,zeret,false,0.225,0.0,zeret (Bible)
+Length or Distance,--- Ancient Mesopotamia ---,\u00C5,false,1.0E-10,0.0,Angstrom
+Inductance,H,H,true,1.0,0.0,Henry
+Inductance,H,abH,false,1.0E-9,0.0,abHenry
+Inductance,H,statH,false,9.0E11,0.0,statHenry
+Electric Potential Difference,V,V,true,1.0,0.0,Volt
+Electric Potential Difference,V,abV,false,1.0E-8,0.0,abVolt
+Electric Potential Difference,V,statV,false,300.0,0.0,statVolt
+Area,m\u00B2,acaena,false,9.19744,0.0,acaena (Greece)
+Area,m\u00B2,acre,false,8561.97632,0.0,chesire acre
+Area,m\u00B2,acre,false,4046.8564224,0.0,acres
+Area,m\u00B2,acre,false,6555.26312,0.0,irish acre
+Area,m\u00B2,acre,false,5142.20257,0.0,scottish acre
+Area,m\u00B2,alen\u00B2,false,0.38121,0.0,square alen (Denmark)
+Area,m\u00B2,ares,false,100.0,0.0,ares
+Area,m\u00B2,arpent,false,3433.35804,0.0,arpent
+Area,m\u00B2,barony,false,1.618748647094E7,0.0,barony
+Area,m\u00B2,circular inch,false,5.06707479E-4,0.0,circular inches
+Area,m\u00B2,donum,false,699.99992,0.0,donum (Yugoslavia)
+Area,m\u00B2,fall,false,31.79618,0.0,fall
+Area,m\u00B2,ferfet,false,0.09848,0.0,ferfet (Iceland)
+Area,m\u00B2,flag,false,2.32258,0.0,flag
+Area,m\u00B2,ft\u00B2,false,0.09290304,0.0,square feet (UK & US)
+Area,m\u00B2,ha,false,10000.0,0.0,hectares
+Area,m\u00B2,hide,false,40468.71618,0.0,hides
+Area,m\u00B2,inch\u00B2,false,6.4516E-4,0.0,square inches
+Area,m\u00B2,jock,false,5746.5577,0.0,jock
+Area,m\u00B2,labor,false,716862.83837,0.0,labor (Texas)
+Area,m\u00B2,mi\u00B2,false,2589988.110336,0.0,square miles
+Area,m\u00B2,m\u00B2,true,1.0,0.0,square meters
+Area,m\u00B2,m\u00B2,false,1.0,0.0,square meters
+Area,m\u00B2,pace,false,2.32258,0.0,pace
+Area,m\u00B2,pes\u00B2),false,0.08741,0.0,square pes (Roman Empire)
+Area,m\u00B2,plethron,false,951.01483,0.0,plethron (Greece)
+Area,m\u00B2,quadra,false,7486.71249,0.0,quadra (Paraguay)
+Area,m\u00B2,quarter section,false,647499.45884,0.0,quarter section
+Area,m\u00B2,rd\u00B2,false,25.29285264,0.0,square rods (or poles)
+Area,m\u00B2,roll,false,2.7871,0.0,roll (wallpaper)
+Area,m\u00B2,rood,false,1011.7141056,0.0,roods
+Area,m\u00B2,sahme,false,7.29106,0.0,sahme (Egypt)
+Area,m\u00B2,scottish ell\u00B2,false,0.88323,0.0,square scottish ell
+Area,m\u00B2,sft\u00B2,false,0.092903411613,0.0,square feet (US survey)
+Area,m\u00B2,shaku,false,0.09179,0.0,shaku (Japan)
+Area,m\u00B2,square,false,9.290304,0.0,squares (of timber)
+Area,m\u00B2,tavola,false,37.62587,0.0,tavola (Italy)
+Area,m\u00B2,township,false,9.3239571972E7,0.0,townships
+Area,m\u00B2,vara\u00B2,false,0.59418,0.0,square vara (Spain)
+Area,m\u00B2,yd\u00B2,false,0.83612736,0.0,square yards
+Area,m\u00B2,yoke,false,5746.5577,0.0,yoke
+Electric Charge, Quantity of Electricity,C,C,true,1.0,0.0,Coulomb
+Electric Charge, Quantity of Electricity,C,abC,false,10.0,0.0,abCoulomb
+Electric Charge, Quantity of Electricity,C,statC,false,3.3333333333333337E-10,0.0,statCoulomb
+Magnetic Flux,Wb,Mx,false,1.0E-8,0.0,Maxwell
+Magnetic Flux,Wb,Wb,true,1.0,0.0,Weber
+Magnetic Flux,Wb,statWb,false,300.0,0.0,statWeber
+Pressure or Stress,N/m\u00B2,N/cm\u00B2,false,10000.0,0.0,newtons/sq.centimeter
+Pressure or Stress,N/m\u00B2,N/mm\u00B2,false,1000000.0,0.0,newtons/sq.millimeter
+Pressure or Stress,N/m\u00B2,N/m\u00B2,true,1.0,0.0,newtons/sq.meter
+Pressure or Stress,N/m\u00B2,Pa,false,1.0,0.0,pascal
+Pressure or Stress,N/m\u00B2,Pa,false,1.0,0.0,pascal
+Pressure or Stress,N/m\u00B2,atm,false,101325.0,0.0,atmosphere
+Pressure or Stress,N/m\u00B2,bar,false,100000.0,0.0,bar
+Pressure or Stress,N/m\u00B2,dyn/cm\u00B2,false,0.1,0.0,dyne/sq.centimeter
+Pressure or Stress,N/m\u00B2,ft of water,false,2989.06692,0.0,feet of water
+Pressure or Stress,N/m\u00B2,gf/cm\u00B2,false,9.80665E7,0.0,gram-forces/sq.centimeter
+Pressure or Stress,N/m\u00B2,gf/m\u00B2,false,9806.65,0.0,gram-forces/sq.meter
+Pressure or Stress,N/m\u00B2,inches of mercury,false,3386.388,0.0,inches of mercury
+Pressure or Stress,N/m\u00B2,inches of water,false,249.08891,0.0,inches of water
+Pressure or Stress,N/m\u00B2,kips/inch\u00B2,false,6894760.0,0.0,kips/sq.inch
+Pressure or Stress,N/m\u00B2,lbf/ft\u00B2,false,47.88,0.0,pounds-force/sq.foot
+Pressure or Stress,N/m\u00B2,lbf/inch\u00B2,false,6894.757,0.0,pounds-force/sq.inch
+Pressure or Stress,N/m\u00B2,m mercury,false,133.322,0.0,meters mercury (0\u00B0C)
+Pressure or Stress,N/m\u00B2,m water,false,0.980665,0.0,meters water
+Pressure or Stress,N/m\u00B2,poundals/ft\u00B2,false,1.44816,0.0,poundals/sq.foot
+Pressure or Stress,N/m\u00B2,tonnes-force/cm\u00B2,false,9.80665E7,0.0,tonnes-force/sq.cm
+Pressure or Stress,N/m\u00B2,tons-force/ft\u00B2,false,107251.0,0.0,tons (UK)-force/sq.foot
+Pressure or Stress,N/m\u00B2,tons-force/ft\u00B2,false,95760.0,0.0,tons (US)-force/sq.foot
+Pressure or Stress,N/m\u00B2,tons-force/inch\u00B2,false,1.37895E7,0.0,tons (US)-force/sq.inch
+Pressure or Stress,N/m\u00B2,tons-force/inch\u00B2,false,1544256.0,0.0,tons (UK)-force/sq.inch
+Pressure or Stress,N/m\u00B2,torr,false,133.322,0.0,torr (0\u00B0C)
+Typography,point,agate,false,5.5,0.0,agate
+Typography,point,borgeois,false,9.0,0.0,borgeois
+Typography,point,brevier,false,8.0,0.0,brevier
+Typography,point,brilliant,false,3.5,0.0,brilliant
+Typography,point,canon,false,48.0,0.0,canon
+Typography,point,ciceros,false,12.89763779527559,0.0,ciceros
+Typography,point,columbian,false,16.0,0.0,columbian
+Typography,point,diamond,false,4.0,0.0,diamond
+Typography,point,english,false,14.0,0.0,english
+Typography,point,excelsior,false,3.0,0.0,excelsior
+Typography,point,great primer,false,18.0,0.0,great primer
+Typography,point,inch,false,72.0,0.0,inches
+Typography,point,long primer,false,10.0,0.0,long primer
+Typography,point,m,false,283.46456692913387,0.0,meters
+Typography,point,meridian,false,44.0,0.0,meridian
+Typography,point,mignon,false,7.0,0.0,mignon
+Typography,point,mignonette,false,6.5,0.0,mignonette
+Typography,point,nonpareil,false,6.0,0.0,nonpareil
+Typography,point,paragon,false,20.0,0.0,paragon
+Typography,point,pearl,false,5.0,0.0,pearl
+Typography,point,pica,false,12.0,0.0,pica
+Typography,point,point,true,1.0,0.0,points
+Typography,point,small pica,false,11.0,0.0,small pica
+Typography,point,stick,false,144.0,0.0,stick
+Time,s,century,false,3.1536E9,0.0,century
+Time,s,day,false,86400.0,0.0,days
+Time,s,hour,false,3600.0,0.0,hours
+Time,s,min,false,60.0,0.0,minutes
+Time,s,month,false,2592000.0,0.0,months
+Time,s,s,true,1.0,0.0,seconds
+Time,s,year,false,3.1536E7,0.0,years
+Electric Current,A,A,true,1.0,0.0,Ampere
+Electric Current,A,abA,false,10.0,0.0,abAmpere
+Electric Current,A,statA,false,3.3333333333333337E-10,0.0,statAmpere
+Binary data,b,B,false,8.0,0.0,byte 8b
+Binary data,b,b,true,1.0,0.0,bit
+Binary data,b,chawmp,false,18.0,0.0,chawmp 18b
+Binary data,b,chawmp,false,16.0,0.0,chawmp 16b
+Binary data,b,crumb,false,2.0,0.0,crumb 2b
+Binary data,b,deckle,false,10.0,0.0,deckle 10b
+Binary data,b,double word,false,64.0,0.0,double word 64b
+Binary data,b,dynner,false,32.0,0.0,dynner 32b
+Binary data,b,gawble,false,32.0,0.0,gawble 32b
+Binary data,b,gawble,false,48.0,0.0,gawble 48b
+Binary data,b,half-word,false,18.0,0.0,half-word 18b
+Binary data,b,half-word,false,16.0,0.0,half-word 16b
+Binary data,b,longword,false,32.0,0.0,longword 32b
+Binary data,b,nickle,false,5.0,0.0,nickle 5b
+Binary data,b,nybble,false,4.0,0.0,nybble 4b
+Binary data,b,playte,false,16.0,0.0,playte 16b
+Binary data,b,quad,false,2.0,0.0,quad 2b
+Binary data,b,quarter,false,2.0,0.0,quarter 2b
+Binary data,b,tayste,false,2.0,0.0,tayste 2b
+Binary data,b,tydbit,false,2.0,0.0,tydbit 2b
+Binary data,b,word,false,16.0,0.0,word 16b
+Binary data,b,word,false,32.0,0.0,word 32b
+Binary data,b,word,false,36.0,0.0,word 36b
+Electric Resistance,Ohm,Ohm,true,1.0,0.0,Ohm
+Electric Resistance,Ohm,abOhm,false,1.0E-9,0.0,abOhm
+Electric Resistance,Ohm,statOhm,false,9.0E11,0.0,statOhm
+Volume or Capacity,m\u00B3,barrels,false,0.158987294928,0.0,barrels (oil)
+Volume or Capacity,m\u00B3,bushel,false,0.03523907016688,0.0,bushels (US)
+Volume or Capacity,m\u00B3,bushel,false,0.03636872,0.0,bushels (UK)
+Volume or Capacity,m\u00B3,cofee spoon,false,1.23223E-6,0.0,cofee spoon
+Volume or Capacity,m\u00B3,cup,false,2.3658825E-4,0.0,cup (US)
+Volume or Capacity,m\u00B3,dash,false,3.0806E-7,0.0,dash
+Volume or Capacity,m\u00B3,drop,false,6.485E-8,0.0,drop
+Volume or Capacity,m\u00B3,fluid dram,false,3.69669E-6,0.0,fluid dram
+Volume or Capacity,m\u00B3,fluid ounce,false,2.957353E-5,0.0,fluid ounce (US)
+Volume or Capacity,m\u00B3,fluid ounce,false,2.841308E-5,0.0,fluid ounce (UK)
+Volume or Capacity,m\u00B3,fluid oz,false,2.84130625E-5,0.0,fluid ounces (UK)
+Volume or Capacity,m\u00B3,fluid oz,false,2.95735295625E-5,0.0,fluid ounces (US)
+Volume or Capacity,m\u00B3,ft\u00B3,false,0.028316846592,0.0,cubic feet
+Volume or Capacity,m\u00B3,gallon,false,0.003785411784,0.0,gallons, liquid (US)
+Volume or Capacity,m\u00B3,gallon,false,0.00440488377086,0.0,gallons, dry (US)
+Volume or Capacity,m\u00B3,gallon,false,0.00454609,0.0,gallon (UK)
+Volume or Capacity,m\u00B3,gill,false,1.420654E-4,0.0,gill (UK)
+Volume or Capacity,m\u00B3,gill,false,1.182941E-4,0.0,gill (US)
+Volume or Capacity,m\u00B3,inch\u00B3,false,1.6387064E-5,0.0,cubic inch
+Volume or Capacity,m\u00B3,l,false,0.001000028,0.0,liter (1901-1964)
+Volume or Capacity,m\u00B3,l,false,0.0010,0.0,liter
+Volume or Capacity,m\u00B3,m\u00B3,true,1.0,0.0,cubic meter
+Volume or Capacity,m\u00B3,m\u00B3,false,1.0,0.0,cubic meter
+Volume or Capacity,m\u00B3,peck,false,0.008809768,0.0,peck
+Volume or Capacity,m\u00B3,pinch,false,6.1612E-7,0.0,pinch
+Volume or Capacity,m\u00B3,pint,false,5.6826125E-4,0.0,pint (UK)
+Volume or Capacity,m\u00B3,pint,false,4.73176473E-4,0.0,pints, liquid (US)
+Volume or Capacity,m\u00B3,pint,false,5.506104713575E-4,0.0,pint, dry (US)
+Volume or Capacity,m\u00B3,quart,false,0.0011365225,0.0,quart (UK)
+Volume or Capacity,m\u00B3,quart,false,9.46352946E-4,0.0,quarts, liquid (US)
+Volume or Capacity,m\u00B3,quart,false,0.001101220942715,0.0,quart, dry (US)
+Volume or Capacity,m\u00B3,quart,false,0.001101221,0.0,quart (US dry)
+Volume or Capacity,m\u00B3,tablespoon,false,1.478677E-5,0.0,tablespoon (US)
+Volume or Capacity,m\u00B3,tablespoon,false,1.848294E-5,0.0,tablespoon (UK)
+Volume or Capacity,m\u00B3,teaspoon,false,4.62073E-6,0.0,teaspoon (UK)
+Volume or Capacity,m\u00B3,teaspoon,false,4.92892E-6,0.0,teaspoon (US)
+Volume or Capacity,m\u00B3,yd\u00B3,false,0.764554857984,0.0,cubic yard
+Wine and Spirits,anker,anker,false,45460.662,0.0,anker
+Wine and Spirits,arroba,arroba,false,16125.8644,0.0,arroba
+Wine and Spirits,aum,aum,false,113559.168,0.0,aum
+Wine and Spirits,balthazar,balthazar,false,12000.0,0.0,balthazar
+Wine and Spirits,barn gallon,barn gallon,false,11365.1663,0.0,barn gallon
+Wine and Spirits,beer barrel,beer barrel,false,136271.0016,0.0,beer barrel
+Wine and Spirits,beer/ale butt/pipe,beer/ale butt/pipe,false,490981.6934,0.0,beer/ale butt/pipe
+Wine and Spirits,beer/ale hogshead (UK),beer/ale hogshead (UK),false,245490.8467,0.0,beer/ale hogshead (UK)
+Wine and Spirits,beer/ale puncheon,beer/ale puncheon,false,272542.0032,0.0,beer/ale puncheon
+Wine and Spirits,beer/ale tun(UK),beer/ale tun(UK),false,981963.3868,0.0,beer/ale tun(UK)
+Wine and Spirits,british bottle,british bottle,false,95467.3969,0.0,british bottle
+Wine and Spirits,cantaro,cantaro,false,13521.1108,0.0,cantaro
+Wine and Spirits,double,double,false,59.1454,0.0,double
+Wine and Spirits,english beer barrel,english beer barrel,false,163650.0,0.0,english beer barrel
+Wine and Spirits,fifth,fifth,false,757.0611,0.0,fifth
+Wine and Spirits,firkin,firkin,false,34067.75,0.0,firkin
+Wine and Spirits,gallon (US liq),gallon (US liq),false,3785.3056,0.0,gallon (US liq)
+Wine and Spirits,gallon (ale/beer),gallon (ale/beer),false,4620.0,0.0,gallon (ale/beer)
+Wine and Spirits,jeroboam,jeroboam,false,3000.0,0.0,jeroboam
+Wine and Spirits,jigger,jigger,false,44.35905,0.0,jigger
+Wine and Spirits,keg,keg,false,37853.056,0.0,keg
+Wine and Spirits,liter,liter,false,1000.0,0.0,liters
+Wine and Spirits,liters,liters,false,1000.0,0.0,liters
+Wine and Spirits,magnum,magnum,false,1500.0,0.0,magnum
+Wine and Spirits,methusaleh,methusaleh,false,6000.0,0.0,methusaleh
+Wine and Spirits,nebuchadnezzar,nebuchadnezzar,false,15000.0,0.0,nebuchadnezzar
+Wine and Spirits,noggin/gill (UK),noggin/gill (UK),false,142.0636,0.0,noggin/gill (UK)
+Wine and Spirits,octave,octave,false,71600.546,0.0,octave
+Wine and Spirits,pony,pony,false,22.179525,0.0,pony
+Wine and Spirits,rehoboam,rehoboam,false,4500.0,0.0,rehoboam
+Wine and Spirits,runlet/kilderkin,runlet/kilderkin,false,68135.5008,0.0,runlet/kilderkin
+Wine and Spirits,salmanezer,salmanezer,false,9000.0,0.0,salmanezer
+Wine and Spirits,shot(ounce),shot(ounce),false,29.5727,0.0,shot(ounce)
+Wine and Spirits,tierce,tierce,false,158982.8352,0.0,tierce
+Wine and Spirits,triple,triple,false,88.7181,0.0,triple
+Wine and Spirits,wine barrel,wine barrel,false,119237.1264,0.0,wine barrel
+Wine and Spirits,wine bottle,wine bottle,false,750.0,0.0,wine bottle
+Wine and Spirits,wine butt/pipe,wine butt/pipe,false,572804.3816,0.0,wine butt/pipe
+Wine and Spirits,wine hogshead (UK),wine hogshead (UK),false,286402.1908,0.0,wine hogshead (UK)
+Wine and Spirits,wine puncheon,wine puncheon,false,317965.6704,0.0,wine puncheon
+Wine and Spirits,wine tun(UK),wine tun(UK),false,1145608.7632,0.0,wine tun(UK)
+Wine and Spirits,yard,yard,false,2365.816,0.0,yard
+Angles,rad,",false,4.84813681109536E-6,0.0,seconds
+Angles,rad,',false,2.908882086657216E-4,0.0,minutes
+Angles,rad,----------------------------------------------------------,false,1.0,0.0,
+Angles,rad,1/10 circle,false,0.6283185307179586,0.0,1/10 circle
+Angles,rad,1/16 circle,false,0.39269908169872414,0.0,1/16 circle
+Angles,rad,1/2 circle,false,3.141592653589793,0.0,1/2 circle
+Angles,rad,1/3 circle,false,2.0943951023931953,0.0,1/3 circle
+Angles,rad,1/4 circle,false,1.5707963267948966,0.0,1/4 circle
+Angles,rad,1/5 circle,false,1.2566370614359172,0.0,1/5 circle
+Angles,rad,1/6 circle,false,1.0471975511965976,0.0,1/6 circle
+Angles,rad,1/7 circle,false,0.8975979010256552,0.0,1/7 circle
+Angles,rad,1/8 circle,false,0.7853981633974483,0.0,1/8 circle
+Angles,rad,1/9 circle,false,0.6981317007977318,0.0,1/9 circle
+Angles,rad,circle,false,6.283185307179586,0.0,full circle
+Angles,rad,grad,false,0.0157079,0.0,grad
+Angles,rad,mils,false,0.0010471975511965976,0.0,mils (EU)
+Angles,rad,mils,false,9.817477042468104E-4,0.0,mils (US)
+Angles,rad,points,false,0.19635,0.0,points
+Angles,rad,rad,true,1.0,0.0,radiants
+Angles,rad,rad,false,1.0,0.0,radiants
+Angles,rad,\u00B0,false,0.017453292519943295,0.0,degrees
+Density,g/ml,g/cl,false,0.1,0.0,grams/centiliter
+Density,g/ml,g/cm\u00B3,false,1.0,0.0,grams/cubic centimeters
+Density,g/ml,g/dal,false,1.0E-4,0.0,grams/dekaliters
+Density,g/ml,g/dam\u00B3,false,1.0E-9,0.0,grams/cubic dekameters
+Density,g/ml,g/dl,false,0.01,0.0,grams/deciliter
+Density,g/ml,g/dm\u00B3,false,0.0010,0.0,grams/cubic decimeters
+Density,g/ml,g/hl,false,1.0E-5,0.0,grams/hectoliter
+Density,g/ml,g/hm\u00B3,false,1.0E-12,0.0,grams/cubic hectometers
+Density,g/ml,g/kl,false,1.0E-6,0.0,grams/kiloliter
+Density,g/ml,g/km\u00B3,false,1.0E-15,0.0,grams/cubic kilometers
+Density,g/ml,g/l,false,0.0010,0.0,grams/liter
+Density,g/ml,g/ml,true,1.0,0.0,grams/milliliters
+Density,g/ml,g/mm\u00B3,false,1000.0,0.0,grams/cubic millimeters
+Density,g/ml,g/m\u00B3,false,1.0E-6,0.0,grams/cubic meters
+Density,g/ml,gr/gal,false,1.7118011571775823E-5,0.0,grains/gallon (US)
+Density,g/ml,gr/gal,false,1.4253948343691203E-5,0.0,grains/gallon (UK)
+Density,g/ml,lb/ft\u00B3,false,0.016018463,0.0,pounds/cubic foot
+Density,g/ml,lb/gal,false,0.119826427,0.0,pounds/gallon (US)
+Density,g/ml,lb/gal,false,0.099776373,0.0,pounds/gallon (UK)
+Density,g/ml,lb/in\u00B3,false,27.679904,0.0,pounds/cubic inch
+Density,g/ml,oz/gal,false,0.007489152,0.0,ounces/gallon (US)
+Density,g/ml,oz/gal,false,0.006236023,0.0,ounces/gallon (UK)
+Density,g/ml,oz/in\u00B3,false,1.729994044,0.0,ounces/cubic inch
+Density,g/ml,slug/ft\u00B3,false,0.51531788206,0.0,slugs/cubic foot
+Density,g/ml,ton/m\u00B3,false,1.0,0.0,tonnes/cubic meter
+Density,g/ml,tons/yard\u00B3,false,1.328939184,0.0,tons (UK)/cubic yard
+Density,g/ml,tons/yard\u00B3,false,1.186552843,0.0,tons (US)/cubic yard
+Power,W,Btu/hour,false,0.293071,0.0,Btu/hour
+Power,W,Btu/min,false,17.584267,0.0,Btu/minute
+Power,W,Btu/sec,false,1055.056,0.0,Btu/second
+Power,W,J/hour,false,2.777777777777778E-4,0.0,joules/hour
+Power,W,J/s,false,1.0,0.0,joules/second
+Power,W,Joules/min,false,0.016666666666666666,0.0,joules/minute
+Power,W,W,true,1.0,0.0,watt
+Power,W,W,false,1.0,0.0,watt
+Power,W,cal/hour,false,0.001639,0.0,calories/hour
+Power,W,cal/min,false,0.06978,0.0,calories/minute
+Power,W,cal/sec,false,4.1868,0.0,calories/second
+Power,W,ergs/sec,false,1.0E-7,0.0,ergs/second
+Power,W,ft lbf/min,false,0.022597,0.0,foot pounds-force/minute
+Power,W,ft lbf/sec,false,1.35582,0.0,foot pounds-force/second
+Power,W,gf m/hour,false,2.724,0.0,gram-force meters/hour
+Power,W,gf m/min,false,163.444,0.0,gram-force meters/minute
+Power,W,hp,false,735.499,0.0,horsepowers (metric)
+Power,W,hp,false,745.7,0.0,horsepowers (electric)
+Magnetic Reluctance,1/H,1/H,true,1.0,0.0,1/Henry
+Magnetic Reluctance,1/H,1/abH,false,1.0E9,0.0,1/abHenry
+Magnetic Reluctance,1/H,1/statH,false,1.111111111111111E-12,0.0,1/statHenry
+Temperature,K,K,true,1.0,0.0,Kelvin
+Temperature,K,\u00B0C,false,1.0,273.15,Celsius
+Temperature,K,\u00B0F,false,0.5555555555555556,255.3722222222222,Fahrenheit
+Temperature,K,\u00B0Re,false,1.25,273.15,R\u00E9aumure
+Temperature,K,\u00B0Rr,false,0.5555555555555556,0.0,Rankine
+Electric permettivity (dielectric constant),F/m,F/m,true,1.0,0.0,Farad/meter
+Electric permettivity (dielectric constant),F/m,abF/cm,false,1.0E11,0.0,abFarad/centimeter
+Electric permettivity (dielectric constant),F/m,statF/cm,false,1.1111111111111112E-10,0.0,statFarad/centimeter
+Force,N,N,true,1.0,0.0,newton
+Force,N,dyne,false,1.0E-5,0.0,dynes
+Force,N,gf,false,0.00980665,0.0,grams force
+Force,N,kip,false,4448.222,0.0,kips
+Force,N,lbf,false,4.448222,0.0,pounds force
+Force,N,poundals,false,0.138255,0.0,poundals
+Force,N,sthene,false,1000.0,0.0,sthene
+Force,N,tonnes force,false,9806.65,0.0,tonnes force
+Force,N,tons force,false,8896.443,0.0,tons force (US)
+Force,N,tons force,false,9964.016,0.0,tons force (UK)
+Speed,m/s,ft/hour,false,8.466666666666667E-5,0.0,feet/hour
+Speed,m/s,ft/min,false,0.00508,0.0,feet/minute
+Speed,m/s,ft/s,false,0.3048,0.0,feet/second
+Speed,m/s,furlongs/hour,false,0.05588,0.0,furlongs/hour
+Speed,m/s,furlongs/min,false,3.3528,0.0,furlongs/minute
+Speed,m/s,furlongs/sec,false,201.168,0.0,furlongs/second
+Speed,m/s,inches/hour,false,7.055555555555555E-6,0.0,inches/hour
+Speed,m/s,inches/min,false,4.2333333333333334E-4,0.0,inches/minute
+Speed,m/s,inches/s,false,0.0254,0.0,inches/second
+Speed,m/s,knots,false,0.514444,0.0,knots
+Speed,m/s,leagues/day,false,0.05588,0.0,leagues/day
+Speed,m/s,m/hour,false,2.777777777777778E-4,0.0,meters/hour
+Speed,m/s,m/min,false,0.016666666666666666,0.0,meters/minute
+Speed,m/s,m/s,true,1.0,0.0,meters/second
+Speed,m/s,m/s,false,1.0,0.0,meters/second
+Speed,m/s,mach,false,340.2933,0.0,Mach number (ISA/SL)
+Speed,m/s,miles/hour,false,0.44704,0.0,miles/hour
+Speed,m/s,miles/min,false,26.822400000000002,0.0,miles/minute
+Speed,m/s,miles/s,false,1609.344,0.0,miles/second
+Speed,m/s,speed of light,false,2.99792458E8,0.0,speed of light
+Speed,m/s,yd/hour,false,2.54E-4,0.0,yards/hour
+Speed,m/s,yd/min,false,0.01524,0.0,yards/minute
+Speed,m/s,yd/s,false,0.9144,0.0,yards/second
+Electric Conductance,S/m,S/m,true,1.0,0.0,siemens/meter
+Electric Conductance,S/m,abS/cm,false,1.0E11,0.0,abS/centimeter
+Electric Conductance,S/m,statS/cm,false,1.1111111111111112E-10,0.0,statS/centimeter
+Dielectric Movement,Coulomb/m\u00B2,Coulomb/m\u00B2,true,1.0,0.0,Coulomb/square meter
+Dielectric Movement,Coulomb/m\u00B2,abC/cm\u00B2,false,100000.0,0.0,abC/square centimeter
+Dielectric Movement,Coulomb/m\u00B2,statC/cm\u00B2,false,3.333333333333333E-7,0.0,statC/square centimeter
+Polarizability,F m\u00B2,F m\u00B2,true,1.0,0.0,Farad * square meter
+Polarizability,F m\u00B2,abFcm\u00B2,false,100000.0,0.0,abFarad * square centimeter
+Polarizability,F m\u00B2,statF cm\u00B2,false,1.1111111111111112E-16,0.0,statFarad * square centimeter
+Energy,J,Btu,false,1054.35,0.0,Btu (th)
+Energy,J,Btu,false,1055.056,0.0,Btu (IT)
+Energy,J,Btu (mean),false,1055.87,0.0,Btu (mean)
+Energy,J,J,true,1.0,0.0,joules
+Energy,J,J,false,1.0,0.0,joules
+Energy,J,Nm,false,1.0,0.0,newton meters
+Energy,J,Wh,false,3600.0,0.0,watt hours
+Energy,J,Ws,false,1.0,0.0,watt seconds
+Energy,J,cal,false,4.1858,0.0,calories (15C)
+Energy,J,cal,false,4.1819,0.0,calories (20C)
+Energy,J,cal,false,4.184,0.0,calories (th)
+Energy,J,cal,false,4.19002,0.0,calories (mean)
+Energy,J,cal,false,4186.0,0.0,calories (food)
+Energy,J,cal,false,4.1868,0.0,calories (IT)
+Energy,J,chu,false,1900.4,0.0,centigrade heat units
+Energy,J,eV,false,1.6025641E-19,0.0,elettronVolt
+Energy,J,erg,false,1.0E-7,0.0,ergs
+Energy,J,ft lbf,false,1.355817,0.0,foot pounds-force
+Energy,J,ft poundals,false,0.04214,0.0,foot poundals
+Energy,J,gf m,false,9806.65,0.0,gram-force meters
+Energy,J,horsepower hours,false,2684520.0,0.0,horsepower hours
+Energy,J,therm,false,1.055E8,0.0,therms
+Magnetic Field Intensity,A/m,A/m,true,1.0,0.0,Ampere/meter
+Magnetic Field Intensity,A/m,Oe,false,79.6,0.0,Oersted
+Magnetic Field Intensity,A/m,statA/cm,false,2.6E-9,0.0,statA/centimeter
+Mass or Weight,--- Ancient ---,--- Ancient ---,true,1.0,0.0,
+Mass or Weight,--- Ancient ---,--- Foreign ---,false,1.0,0.0,
+Mass or Weight,--- Ancient ---,100 weights,false,45359.237,0.0,100 weights (US cwt.)
+Mass or Weight,--- Ancient ---,carats,false,0.2,0.0,carats (metric)
+Mass or Weight,--- Ancient ---,catty,false,604.77471,0.0,catty (Asia)
+Mass or Weight,--- Ancient ---,dram,false,1.77185,0.0,dram (avoirdupois)
+Mass or Weight,--- Ancient ---,dram,false,3.88793,0.0,dram (apothecaries)
+Mass or Weight,--- Ancient ---,earth masses,false,5.98E27,0.0,earth masses
+Mass or Weight,--- Ancient ---,footweight,false,28315.2769,0.0,footweight (France)
+Mass or Weight,--- Ancient ---,funt,false,405.511,0.0,funt (Poland)
+Mass or Weight,--- Ancient ---,funt,false,411.24,0.0,funt (Russia)
+Mass or Weight,--- Ancient ---,g,false,1.0,0.0,gram
+Mass or Weight,--- Ancient ---,g,false,1.0,0.0,gram
+Mass or Weight,--- Ancient ---,grain,false,0.06479891,0.0,grain
+Mass or Weight,--- Ancient ---,hiyaku-ne,false,374.985,0.0,hiyaku-ne (Japan)
+Mass or Weight,--- Ancient ---,hudredweights,false,50802.34544,0.0,hudredweights (long)
+Mass or Weight,--- Ancient ---,hudredweights,false,45359.237,0.0,hudredweights (short)
+Mass or Weight,--- Ancient ---,kat,false,9.331,0.0,kat (Egypt)
+Mass or Weight,--- Ancient ---,kerat,false,0.19504,0.0,kerat (Egypt)
+Mass or Weight,--- Ancient ---,kona,false,6.99828,0.0,kona (India)
+Mass or Weight,--- Ancient ---,lb,false,453.59237,0.0,pounds (avoirdupois)
+Mass or Weight,--- Ancient ---,lb,false,373.2417216,0.0,pounds (troy)
+Mass or Weight,--- Ancient ---,libra,false,460.1241,0.0,libra (Spain)
+Mass or Weight,--- Ancient ---,libra,false,459.09,0.0,libra (Portugal)
+Mass or Weight,--- Ancient ---,mancus,false,62.20695,0.0,mancus (Bri)
+Mass or Weight,--- Ancient ---,marco,false,230.04,0.0,marco (Spain)
+Mass or Weight,--- Ancient ---,mast,false,933.1043,0.0,mast (Bri)
+Mass or Weight,--- Ancient ---,merchants pound,false,497.65563,0.0,merchants pound (Bri)
+Mass or Weight,--- Ancient ---,niyo,false,14.0,0.0,niyo (Japan)
+Mass or Weight,--- Ancient ---,oka,false,1248.0,0.0,oka (Egypt)
+Mass or Weight,--- Ancient ---,oka,false,1279.9,0.0,oka (Greece)
+Mass or Weight,--- Ancient ---,oka,false,1280.0,0.0,oka (Yugoslavia)
+Mass or Weight,--- Ancient ---,oke,false,1280.0,0.0,oke (Yugoslavia)
+Mass or Weight,--- Ancient ---,okia,false,37.44027,0.0,okia (Egypt)
+Mass or Weight,--- Ancient ---,oz,false,28.349523125,0.0,ounces (avoirdupois)
+Mass or Weight,--- Ancient ---,oz,false,31.1034768,0.0,ounces (troy)
+Mass or Weight,--- Ancient ---,pala,false,47.173,0.0,pala (India)
+Mass or Weight,--- Ancient ---,pennyweight,false,1.55517,0.0,pennyweight
+Mass or Weight,--- Ancient ---,pond,false,499.944,0.0,pond (Netherlands)
+Mass or Weight,--- Ancient ---,poundal,false,14.08672,0.0,poundal
+Mass or Weight,--- Ancient ---,pund (Sweden),false,425.101,0.0,pund (Sweden)
+Mass or Weight,--- Ancient ---,quarter,false,11339.80925,0.0,quarter (US)
+Mass or Weight,--- Ancient ---,scruples,false,1.29598,0.0,scruples (apothecaries)
+Mass or Weight,--- Ancient ---,skalpund,false,425.101,0.0,skalpund (Sweden)
+Mass or Weight,--- Ancient ---,slugs,false,14593.903,0.0,slugs (g-pounds)
+Mass or Weight,--- Ancient ---,solar masses,false,1.989E33,0.0,solar masses
+Mass or Weight,--- Ancient ---,stone,false,6350.29318,0.0,stones
+Mass or Weight,--- Ancient ---,talanton,false,149998.5,0.0,talanton (Greece)
+Mass or Weight,--- Ancient ---,talent,false,26332.0,0.0,talent (Heb)
+Mass or Weight,--- Ancient ---,tonne,false,1000000.0,0.0,tonne
+Mass or Weight,--- Ancient ---,tons,false,1016046.9088,0.0,tons (UK or long)
+Mass or Weight,--- Ancient ---,tons,false,907184.74,0.0,tons (US or short)
+Mass or Weight,--- Ancient ---,um,false,9800.0,0.0,um
+Mass or Weight,--- Ancient ---,uncia,false,27.164,0.0,uncia (Roman Empire)
+Mass or Weight,--- Ancient ---,wagon,false,10000.0,0.0,wagon (Yugoslavia)
+Magnetic Flux Density,T,Gs,false,1.0E-4,0.0,Gauss
+Magnetic Flux Density,T,T,true,1.0,0.0,Tesla
+Magnetic Flux Density,T,statT,false,3.0E16,0.0,statTesla
+Magnetic Permeability,H/m,Gs/Oe,false,1.256637061E-6,0.0,Gauss/Oersted
+Magnetic Permeability,H/m,H/m,true,1.0,0.0,Henry/meter
+Magnetic Permeability,H/m,statH/cm,false,1.1111111111111111E15,0.0,statHenry/centimeter

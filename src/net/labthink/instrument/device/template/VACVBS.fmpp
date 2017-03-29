@@ -1,0 +1,386 @@
+# encoding: UTF-8
+sourceRoot: src
+outputRoot: VACVBS
+sourceEncoding:UTF-8
+outputEncoding:UTF-8
+borders: [
+    border(
+        "<@pp.dropOutputFile /><@pp.changeOutputFile name=devicename+pp.outputFileName?substring(0, pp.outputFileName?index_of('.ftl'))+'.java'/>"
+        ""
+        **/*.ftl
+    )
+]
+data: {
+    tdd(data/device.tdd)
+	author: Moses
+	date: 2010/08/20
+	version: 1.0.0.0
+	devicename: VACVBS
+
+	packet: {
+		in:{total:9,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+		out:{total:14,head:AAAA,tail:BBBB,headlen:2,taillen:2}
+	}
+
+	protocal:{
+		switchsrc:incontent
+		setsrc:incontent
+		setdest:outmsgcontent
+		switchpos:0
+		errorpkt:"(byte)0x01,(byte)0x00"
+		switchcase:[
+			{
+				func: 00
+				describe: 试验
+				action:{
+					setdevice:[
+						{aim:"devicepower",value:"true"}
+						{aim:"testing",value:"true"}
+					]
+				}
+			}
+			{
+				func: 01
+				describe: 停止
+				action:{
+					setvalue:[
+						{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+						{id:04,value:0x21,describe:"X5:21H 停止确认帧"}
+					]
+					clearposition:5
+				}
+			}
+			{
+				func: 02
+				describe: ACK确认帧
+			}
+			{
+				func: 03
+				describe: 硬件检测
+			}
+			{
+				func: 04
+				describe: 系统复位
+				action:{
+					setvalue:[
+						{id:00,value:0x04,describe:"X1:04 系统复位确认帧"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 05
+				describe: "阀体控制, (X2X3位控制方式,高位在前,0 关闭；1开启) (X4：从高到低：Lower、Lower&Up、Test，0－熄灭，1－点亮) "
+				action:{
+					setvalue:[
+						{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+						{id:04,value:0x20,describe:"X5:20H 阀体ACK帧(X2X3阀的控制位，即试验状态)"}
+					]
+					copyvalue:[
+						{infrom:1,outfrom:1,length:2,describe:" (X2X3位控制方式,高位在前,0 关闭；1开启) "}
+					]
+					setdevice:[
+						{aim:"valves",startposition:1}
+						{aim:"leds",startposition:3}
+					]
+					clearposition:5
+				}
+			}
+			{
+				func: 06
+				describe: 通信诊断
+				action:{
+					setvalue:[
+						{id:00,value:0x06,describe:"06   通信诊断确认"}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 07
+				describe: "向设备索要膜标定系数"
+				action:{
+					setvalue:[
+						{id:00,value:0x07,describe:"X1:07   膜标定系数  X2X3高位在前，两位小数"}
+					]
+					getdevice:[
+						{aim:"factor",startposition:1}
+					]
+					clearposition:3
+				}
+			}
+			{
+				func: 0C
+				describe: "标定命令!"
+				protocal:{
+					switchsrc:incontent
+					switchpos:1
+					switchcase:[
+						{
+							func: 10
+							describe: "标定进入"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x22,describe:"X5:22H 标定进入"}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 11
+							describe: "温度零点 11H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x24,describe:"X5:24H 温度零点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 温度零点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"tempzero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 12
+							describe: "温度终点 12H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x25,describe:"25H 温度终点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 温度终点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"tempend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 13
+							describe: "湿度零点         13H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x26,describe:"X5:26H 湿度零点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 湿度零点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"humidityzero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 14
+							describe: "湿度终点         14H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x27,describe:"X5:27H 湿度终点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 湿度终点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"humidityend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 15
+							describe: "高压零点         15H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x28,describe:"X5:28H 高压零点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 高压零点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"highpressurezero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 16
+							describe: "高压终点         16H    (X3X4高位在前) "
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x29,describe:"X5:29H   高压终点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 高压终点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"highpressureend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 17
+							describe: "低压零点         17H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x2A,describe:"X5:2AH 低压零点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 低压零点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"lowpressurezero",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 18
+							describe: "低压终点         18H    (X3X4高位在前)"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x2B,describe:"X5:2BH 低压终点 (X3X4高位在前)"}
+								]
+								copyvalue:[
+									{infrom:2,outfrom:2,length:2,describe:"//TODO 低压终点 (X3X4高位在前)"}
+								]
+								setdevice:[
+									{aim:"lowpressureend",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+						{
+							func: 23
+							describe: "保存膜标定系数到设备   23H    X3X4高位在前，两位小数"
+							action:{
+								setvalue:[
+									{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+									{id:04,value:0x24,describe:"X5:2CH  膜标定系数保存确认帧"}
+								]
+								setdevice:[
+									{aim:"factor",startposition:2}
+								]
+								clearposition:5
+							}
+						}
+					]
+				}
+			}
+			{
+				func: 0D
+				describe: "标定退出"
+				action:{
+					setvalue:[
+						{id:00,value:0x02,describe:"X1:02 确认帧标志"}
+						{id:04,value:0x23,describe:"X5:23H 标定退出"}
+					]
+					clearposition:5
+				}
+			}
+			{
+				func: 0E
+				describe: "0E 设定压力（X2X3设定值，高位在前，两位小数）"
+				action:{
+					setvalue:[
+						{id:00,value:0x08,describe:"X1:08	压力设定成功"}
+					]
+					setdevice:[
+						{aim:"pressuresetpoint",startposition:1}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 0F
+				describe: "0F 设定压力修正值（X2X3设定值，高位在前，两位小数）"
+				action:{
+					setvalue:[
+						{id:00,value:0x09,describe:"X1:09	压力修正设定成功"}
+					]
+					setdevice:[
+						{aim:"pressuresetpointfix",startposition:1}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 10
+				describe: " 10 抽空持续时间，毫秒 （X2X3设定值）"
+				action:{
+					setvalue:[
+						{id:00,value:0x10,describe:"X1:10 抽空持续时间设定成功"}
+					]
+					setdevice:[
+						{aim:"pumpouttime",startposition:1}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 11
+				describe: " 11 控制幅值，	单位：kPa（X2X3设定值，高位在前，两位小数）"
+				action:{
+					setvalue:[
+						{id:00,value:0x11,describe:"X1:11 控制幅值设定成功"}
+					]
+					setdevice:[
+						{aim:"controlamplitude",startposition:1}
+					]
+					clearposition:1
+				}
+			}
+			{
+				func: 12
+				describe: "12 控制周期，单位：秒（X2X3设定值）"
+				action:{
+					setvalue:[
+						{id:00,value:0x12,describe:"X1: 12 控制周期设定成功"}
+					]
+					setdevice:[
+						{aim:"controlperiod",startposition:1}
+					]
+					clearposition:1
+				}
+			}
+		]
+	}
+
+	device:{
+		status:["待机","上腔吹洗"]
+		vars:[
+			{name:"devicepower",type:"boolean",default:"false",describe:"机器是否上电"}
+			{name:"testing",type:"boolean",default:"false",describe:"是否正在试验"}
+			{name:"valves",type:"byte[]",default:"new byte[2]",describe:"阀门状态"}
+			{name:"factor",type:"byte[]",default:"new byte[2]",describe:"标定系数"}
+			{name:"tempzero",type:"byte[]",default:"new byte[2]",describe:"温度零点"}
+			{name:"tempend",type:"byte[]",default:"new byte[2]",describe:"温度终点"}
+			{name:"humidityzero",type:"byte[]",default:"new byte[2]",describe:"湿度零点"}
+			{name:"humidityend",type:"byte[]",default:"new byte[2]",describe:"湿度终点"}
+			{name:"highpressurezero",type:"byte[]",default:"new byte[2]",describe:"高压零点"}
+			{name:"highpressureend",type:"byte[]",default:"new byte[2]",describe:"高压终点"}
+			{name:"lowpressurezero",type:"byte[]",default:"new byte[2]",describe:"低压零点"}
+			{name:"lowpressureend",type:"byte[]",default:"new byte[2]",describe:"低压终点"}
+			{name:"pressuresetpoint",type:"byte[]",default:"new byte[2]",describe:"设定压力"}
+			{name:"pressuresetpointfix",type:"byte[]",default:"new byte[2]",describe:"设定压力修正值"}
+			{name:"pumpouttime",type:"byte[]",default:"new byte[2]",describe:"抽空持续时间，毫秒"}
+			{name:"controlamplitude",type:"byte[]",default:"new byte[2]",describe:"控制幅值，	单位：kPa（X2X3设定值，高位在前，两位小数）"}
+			{name:"controlperiod",type:"byte[]",default:"new byte[2]",describe:"控制周期，单位：秒（X2X3设定值）"}
+			{name:"leds",type:"byte",default:"0",describe:"指示灯"}
+		]
+	}
+
+}

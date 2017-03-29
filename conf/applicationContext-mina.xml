@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+ http://www.springframework.org/schema/context 
+ http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+	<context:annotation-config />
+	<bean id="ioAcceptor" class="org.apache.mina.transport.socket.nio.NioSocketAcceptor" />
+
+
+	<bean id="rs232connector" class="net.labthink.instrument.rs232.RS232Connector" />
+
+	<bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter" />
+
+	<bean id="protocolCodecFilter" class="org.apache.mina.filter.codec.ProtocolCodecFilter">
+		<constructor-arg>
+			<!-- 这里用于替换协议工厂 -->
+			<ref bean="protocolCodecFactory" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="protocolCodecFactory" class="net.labthink.instrument.codec.Cofp01ProtocolCodecFactory" />
+	
+	<bean id="rs232handler" class="net.labthink.instrument.handler.rs232handler" />
+	
+	
+	<bean id="springRunServer"
+		class="net.labthink.instrument.rs232.SpringRunServer">
+		<property name="comport">
+			<value>COM2</value>
+		</property>
+	</bean>
+	
+
+</beans>
